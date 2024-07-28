@@ -14,6 +14,7 @@
 #define SQUAD_CBRN "CBRN"
 #define SQUAD_UPP "Red Dawn"
 #define SQUAD_LRRP "Snake Eaters"
+#define SQUAD_MECHANIZED "Chocobos"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"

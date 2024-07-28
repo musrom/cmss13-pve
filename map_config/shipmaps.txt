@@ -26,5 +26,8 @@ endmap
 map rover
 endmap
 
+map ragnarok
+endmap
+
 map golden_arrow_classic
 endmap
