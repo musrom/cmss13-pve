@@ -21,7 +21,7 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 /client/proc/toggle_game_master()
 	set name = "Game Master Panel"
 	set category = "Game Master"
-	if(!check_rights(R_GAMEMASTER))
+	if(!check_rights(R_ADMIN))
 		return
 
 	if(src)

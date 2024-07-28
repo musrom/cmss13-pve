@@ -27,7 +27,6 @@ var/list/admin_ranks = list() //list of all ranks with associated rights
 			switch(ckey(List[i]))
 				if("@","prev") rights |= previous_rights
 				if("buildmode","build") rights |= R_BUILDMODE
-				if("gamemaster", "gm") rights |= R_GAMEMASTER
 				if("admin") rights |= R_ADMIN
 				if("ban") rights |= R_BAN
 				if("server") rights |= R_SERVER
