@@ -53,14 +53,10 @@
 /area/golden_arrow/shared_office)
 "aj" = (
 /obj/structure/surface/table/almayer,
-/obj/item/storage/belt/utility/full,
-/obj/item/tool/weldpack,
-/obj/item/clothing/glasses/welding,
-/obj/structure/machinery/light{
-	dir = 1
-	},
+/obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon,
+/obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon,
 /turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
+/area/golden_arrow/hangar)
 "ak" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -4436,14 +4432,13 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "tp" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	dir = 1;
-	name = "\improper Vehicle Crewman Preparations";
-	req_access = list();
-	req_one_access_txt = list()
-	},
+/obj/structure/surface/table/almayer,
+/obj/item/ammo_magazine/hardpoint/boyars_dualcannon,
+/obj/item/ammo_magazine/hardpoint/boyars_dualcannon,
+/obj/item/ammo_magazine/hardpoint/flare_launcher,
+/obj/item/ammo_magazine/hardpoint/flare_launcher,
 /turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
+/area/golden_arrow/hangar)
 "tr" = (
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 4;
@@ -5654,18 +5649,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
-"zs" = (
-/obj/structure/closet{
-	name = "vehicle crewman locker"
-	},
-/obj/item/clothing/suit/storage/marine/tanker,
-/obj/item/clothing/under/marine/tanker,
-/obj/item/clothing/head/helmet/marine/tech/tanker,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "zt" = (
 /obj/structure/cargo_container/kelland/left{
 	layer = 3;
@@ -6255,15 +6238,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
-"Cw" = (
-/obj/structure/closet{
-	name = "vehicle crewman locker"
-	},
-/obj/item/clothing/suit/storage/marine/tanker,
-/obj/item/clothing/under/marine/tanker,
-/obj/item/clothing/head/helmet/marine/tech/tanker,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "Cy" = (
 /turf/open/floor/almayer{
 	icon_state = "test_floor5"
@@ -6402,10 +6376,6 @@
 "DA" = (
 /turf/closed/wall/almayer,
 /area/golden_arrow/engineering)
-"DB" = (
-/obj/structure/surface/table/almayer,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "DC" = (
 /obj/structure/sign/banners/united_americas_flag{
 	pixel_x = -30;
@@ -6841,12 +6811,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/golden_arrow/medical)
-"FI" = (
-/obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon,
-/obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon,
-/turf/open/floor/almayer,
-/area/golden_arrow/hangar)
 "FM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/safety/ammunition{
@@ -8468,14 +8432,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/golden_arrow/medical)
-"NM" = (
-/obj/structure/surface/table/almayer,
-/obj/item/ammo_magazine/hardpoint/boyars_dualcannon,
-/obj/item/ammo_magazine/hardpoint/boyars_dualcannon,
-/obj/item/ammo_magazine/hardpoint/flare_launcher,
-/obj/item/ammo_magazine/hardpoint/flare_launcher,
-/turf/open/floor/almayer,
-/area/golden_arrow/hangar)
 "NQ" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/computer/emails{
@@ -11068,13 +11024,6 @@
 /obj/item/tool/warning_cone,
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
-"ZJ" = (
-/obj/structure/surface/table/almayer,
-/obj/item/storage/belt/utility/full,
-/obj/item/tool/weldpack,
-/obj/item/clothing/glasses/welding,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "ZN" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -20137,9 +20086,9 @@ EG
 EG
 EG
 EG
-DQ
-DQ
-DQ
+EG
+EG
+EG
 DQ
 Mk
 rI
@@ -20289,9 +20238,9 @@ EG
 EG
 EG
 EG
-DQ
-zs
-Yr
+EG
+EG
+EG
 DQ
 jf
 bc
@@ -20441,9 +20390,9 @@ EG
 EG
 EG
 EG
-DQ
-Cw
-Yr
+EG
+EG
+EG
 DQ
 qx
 Tb
@@ -20593,10 +20542,10 @@ EG
 EG
 EG
 EG
+EG
+EG
+EG
 DQ
-DB
-Yr
-tp
 Zg
 Td
 wU
@@ -20745,9 +20694,9 @@ EG
 EG
 EG
 EG
-DQ
-ZJ
-Yr
+EG
+EG
+EG
 DQ
 mH
 bI
@@ -20897,9 +20846,9 @@ EG
 EG
 EG
 EG
-DQ
-aj
-Yr
+EG
+EG
+EG
 DQ
 hG
 XM
@@ -21049,9 +20998,9 @@ EG
 EG
 EG
 EG
-DQ
-DQ
-DQ
+EG
+EG
+EG
 DQ
 Yr
 Gk
@@ -25311,7 +25260,7 @@ nY
 OQ
 Wa
 Wa
-FI
+aj
 Wa
 Gn
 Wa
@@ -25463,7 +25412,7 @@ hs
 OQ
 Wa
 Wa
-NM
+tp
 Wa
 Gn
 Wa
