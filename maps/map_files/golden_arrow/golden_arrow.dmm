@@ -1115,6 +1115,10 @@
 	pixel_x = 10;
 	pixel_y = -3
 	},
+/obj/structure/machinery/computer/railgun{
+	dir = 8;
+	pixel_x = 15
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "dY" = (

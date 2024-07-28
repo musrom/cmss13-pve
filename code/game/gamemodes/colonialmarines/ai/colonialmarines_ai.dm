@@ -102,6 +102,16 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/smartgunner/ai/mechanized = JOB_SQUAD_SMARTGUN,\
 		/datum/job/marine/standard/ai/mechanized = JOB_SQUAD_MARINE), \
 
+		/datum/squad/marine/weapons = list(/datum/job/command/bridge/ai = JOB_SO,\
+		/datum/job/command/bridge/ai/xo = JOB_XO,\
+		/datum/job/marine/mortar = JOB_PILOT,\
+		/datum/job/marine/medic/ai =  JOB_SQUAD_MEDIC, \
+		/datum/job/marine/engineer/ai =  JOB_SQUAD_MEDIC, \
+		/datum/job/marine/leader/ai = JOB_SQUAD_LEADER,\
+		/datum/job/marine/tl/ai = JOB_SQUAD_TEAM_LEADER, \
+		/datum/job/marine/machinegun = JOB_SQUAD_HMG,\
+		/datum/job/marine/standard/ai = JOB_SQUAD_MARINE), \
+
 		/datum/squad/marine/forecon = list(/datum/job/marine/standard/ai/forecon = JOB_SQUAD_MARINE,\
 		/datum/job/marine/standard/ai/rto = JOB_SQUAD_RTO,\
 		/datum/job/marine/leader/ai/forecon = JOB_SQUAD_LEADER,\
@@ -114,4 +124,5 @@ GLOBAL_LIST_INIT(platoon_to_role_list, list(/datum/squad/marine/alpha = ROLES_AI
 												/datum/squad/marine/upp = ROLES_AI_UPP,\
 												/datum/squad/marine/forecon = ROLES_AI_FORECON,\
 												/datum/squad/marine/mechanized = ROLES_AI_MECHANIZED,\
+												/datum/squad/marine/weapons = ROLES_AI_WEAPONS,\
 												))

@@ -91,3 +91,8 @@
 
 /obj/structure/gun_rack/m41/recon/unloaded
 	populate_type = /obj/item/weapon/gun/rifle/m41aMK1/forecon/unloaded
+
+/obj/structure/gun_rack/m41/smg
+	name = "m39 gun rack"
+	allowed_type = /obj/item/weapon/gun/smg/m39
+	populate_type = /obj/item/weapon/gun/smg/m39

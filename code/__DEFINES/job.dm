@@ -15,11 +15,12 @@
 #define SQUAD_UPP "Red Dawn"
 #define SQUAD_LRRP "Snake Eaters"
 #define SQUAD_MECHANIZED "Chocobos"
+#define SQUAD_WEAPONS "Seventh Sons"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
 #define JOB_SQUAD_LEADER "Platoon Sergeant"
-#define JOB_SQUAD_ENGI "Combat Technician"
+#define JOB_SQUAD_ENGI "Platoon Engineer"
 #define JOB_SQUAD_MEDIC "Platoon Corpsman"
 #define JOB_SQUAD_SPECIALIST "Weapons Specialist"
 #define JOB_SQUAD_TEAM_LEADER "Squad Sergeant"
@@ -40,6 +41,8 @@
 #define JOB_SQUAD_RTO "Radio Telephone Operator"
 #define JOB_SQUAD_MARINE_FORECON "FORECON Rifleman"
 #define JOB_SQUAD_SMARTGUN_FORECON "FORECON Smartgunner"
+
+#define JOB_SQUAD_HMG "Squad Heavymachinegunner"
 
 var/global/list/job_squad_roles = JOB_SQUAD_ROLES_LIST
 
@@ -183,6 +186,10 @@ var/global/list/job_command_roles = JOB_COMMAND_ROLES_LIST
 #define JOB_WO_SQUAD_SMARTGUNNER "Dust Raider Squad Smartgunner"
 #define JOB_WO_SQUAD_SPECIALIST "Dust Raider Squad Weapons Specialist"
 #define JOB_WO_SQUAD_LEADER "Dust Raider Squad Leader"
+
+//-------------AI Roles---------------
+
+#define JOB_SQUAD_HMG "Squad Heavy Machinegunner"
 
 //------------------------------------
 
