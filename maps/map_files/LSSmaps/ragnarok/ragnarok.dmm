@@ -82,17 +82,6 @@
 	icon_state = "test_floor4"
 	},
 /area/golden_arrow/platoon_commander_rooms)
-"am" = (
-/obj/item/storage/box/guncase/pumpshotgun/special{
-	pixel_y = 4
-	},
-/obj/item/storage/box/guncase/flamer/special{
-	layer = 3.1;
-	pixel_y = 10
-	},
-/obj/structure/surface/rack,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonarmory)
 "ar" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -404,6 +393,24 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"bw" = (
+/obj/structure/closet/wardrobe{
+	name = "PT uniform"
+	},
+/obj/item/clothing/under/shorts/blue,
+/obj/item/clothing/under/shorts/red,
+/obj/item/clothing/under/shorts/blue,
+/obj/item/clothing/head/headband/red,
+/obj/item/clothing/under/shorts/red,
+/obj/structure/barricade/handrail{
+	layer = 3.1;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
 "bx" = (
 /turf/closed/wall/almayer,
 /area/golden_arrow/dorms)
@@ -509,7 +516,10 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
 "bZ" = (
-/obj/structure/largecrate/supply/supplies/metal,
+/obj/structure/surface/table/almayer,
+/obj/item/ammo_magazine/sentry{
+	layer = 3.01
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "cb" = (
@@ -1007,6 +1017,11 @@
 /obj/item/ashtray/plastic{
 	pixel_x = 10;
 	pixel_y = -3
+	},
+/obj/structure/machinery/computer/railgun/orbital{
+	dir = 8;
+	pixel_x = 16;
+	pixel_y = -2
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
@@ -2114,6 +2129,17 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
+"iz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "iA" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -2147,16 +2173,7 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
 "iF" = (
-/obj/structure/largecrate/supply/motiondetectors,
-/obj/structure/largecrate/supply/explosives/grenades/less{
-	icon_state = "case";
-	pixel_y = 10
-	},
-/obj/item/ammo_box/magazine/mk1{
-	layer = 3.1;
-	pixel_x = -2;
-	pixel_y = 14
-	},
+/obj/structure/largecrate/supply/supplies/metal,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "iI" = (
@@ -3155,6 +3172,17 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
+"mA" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	layer = 3.1;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "mD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil,
@@ -3542,13 +3570,13 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/platoonarmory)
 "oK" = (
-/obj/structure/gun_rack/m41,
 /obj/item/reagent_container/food/drinks/coffeecup/wy{
 	desc = "A matte gray coffee mug bearing the Weyland-Yutani logo on its front. Looks like someone spat in it.";
 	name = "dip cup";
 	pixel_x = -5;
 	pixel_y = 18
 	},
+/obj/structure/gun_rack/m41/smg,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "oM" = (
@@ -5103,6 +5131,9 @@
 	pixel_x = 7;
 	pixel_y = 5
 	},
+/obj/structure/machinery/computer/altitude_control_console{
+	pixel_y = 24
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "vQ" = (
@@ -5680,6 +5711,9 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
+"zz" = (
+/turf/closed/wall/almayer/outer,
+/area/space)
 "zB" = (
 /obj/structure/closet/crate/trashcart{
 	pixel_y = 11
@@ -5853,6 +5887,16 @@
 	icon_state = "cargo_arrow"
 	},
 /area/golden_arrow/hangar)
+"Aw" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "equipment_conny";
+	name = "\improper Squad One Equipment Locker"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
 "Ax" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/kitchen/tray{
@@ -6089,6 +6133,17 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"BA" = (
+/obj/structure/surface/rack,
+/obj/item/ammo_box/magazine/m39/ap{
+	pixel_y = -4
+	},
+/obj/item/ammo_box/magazine/m39/ext,
+/obj/item/ammo_box/magazine/m39/incen{
+	pixel_y = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
 "BC" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_21"
@@ -6287,7 +6342,7 @@
 	},
 /area/golden_arrow/cryo_cells)
 "CX" = (
-/obj/structure/gun_rack/m41,
+/obj/structure/gun_rack/m41/smg,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "Da" = (
@@ -6682,6 +6737,14 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/cryo_cells)
+"Fa" = (
+/obj/structure/largecrate/supply/ammo/m39,
+/obj/structure/largecrate/supply/ammo/m39{
+	pixel_x = -3;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
 "Fe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -7205,14 +7268,11 @@
 	},
 /area/golden_arrow/hangar)
 "HE" = (
-/obj/structure/largecrate/supply/ammo{
-	fill_from_loc = 1;
-	name = "sentry crate"
+/obj/structure/largecrate/supply/motiondetectors,
+/obj/structure/largecrate/supply/explosives/grenades/less{
+	icon_state = "case";
+	pixel_y = 10
 	},
-/obj/item/ammo_magazine/sentry{
-	layer = 3.01
-	},
-/obj/item/defenses/handheld/sentry,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "HF" = (
@@ -7672,7 +7732,16 @@
 	},
 /area/golden_arrow/hangar)
 "JM" = (
-/obj/structure/surface/table/almayer,
+/obj/item/storage/box/guncase/smartpistol{
+	pixel_y = -2
+	},
+/obj/item/storage/box/guncase/m79{
+	pixel_y = 4
+	},
+/obj/item/storage/box/guncase/flamer/special{
+	pixel_y = 10
+	},
+/obj/structure/surface/rack,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "JQ" = (
@@ -7685,10 +7754,8 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "JR" = (
-/obj/structure/largecrate/supply/ammo/m41amk1,
-/obj/structure/largecrate/supply/ammo/m41amk1{
-	pixel_x = -3;
-	pixel_y = 10
+/obj/structure/largecrate/supply/supplies/mre{
+	layer = 3.1
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
@@ -7936,6 +8003,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
@@ -9664,9 +9732,8 @@
 "Ua" = (
 /obj/structure/pipes/vents/pump,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
-	id = "weapons_conny";
-	name = "\improper Squad Two Weapons Locker";
-	pixel_y = -4
+	id = "equipment_conny";
+	name = "\improper Squad One Equipment Locker"
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -9766,6 +9833,15 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"UD" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/largecrate/supply/ammo{
+	fill_from_loc = 1;
+	name = "sentry crate";
+	pixel_y = 5
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
 "UH" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -9952,6 +10028,11 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
+"Vx" = (
+/obj/structure/surface/table/almayer,
+/obj/item/defenses/handheld/sentry,
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
 "Vy" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -17214,8 +17295,8 @@ CL
 aN
 Xm
 Ll
-sW
-cO
+bw
+mA
 cO
 Rz
 og
@@ -17365,9 +17446,9 @@ su
 dw
 su
 Bk
-jW
-Bk
-Bk
+iz
+NA
+NA
 Bk
 QH
 og
@@ -21152,7 +21233,7 @@ EG
 EG
 EG
 EG
-EG
+zz
 DQ
 VZ
 RD
@@ -21303,8 +21384,8 @@ EG
 EG
 EG
 HZ
-bk
-bk
+HZ
+HZ
 da
 wQ
 Ye
@@ -21759,7 +21840,7 @@ EG
 EG
 EG
 HZ
-am
+CX
 pd
 HY
 wQ
@@ -22215,15 +22296,15 @@ EG
 EG
 EG
 HZ
-JM
-jh
+BA
+Aw
 qk
 wQ
 MG
 Cv
 qk
 Dc
-JM
+UD
 kb
 dz
 IL
@@ -22367,15 +22448,15 @@ EG
 EG
 EG
 HZ
-JM
-pd
+Fa
+PY
 Jx
 Ot
 aP
 Ot
 mI
 Rh
-JM
+Vx
 kb
 im
 zt

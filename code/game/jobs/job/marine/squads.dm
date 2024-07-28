@@ -164,8 +164,18 @@
 	access = list(ACCESS_MARINE_ALPHA)
 	equipment_color = "#ffc32d"
 	chat_color = "#ffe650"
-	radio_freq = BRAVO_FREQ
+	radio_freq = ALPHA_FREQ
 	minimap_color = MINIMAP_SQUAD_BRAVO
+	usable = TRUE
+
+/datum/squad/marine/weapons
+	name = SQUAD_WEAPONS
+	access = list(ACCESS_MARINE_ALPHA)
+	radio_freq = ALPHA_FREQ
+	equipment_color = "#4148c8"
+	chat_color = "#828cff"
+	radio_freq = ALPHA_FREQ
+	minimap_color = MINIMAP_SQUAD_DELTA
 	usable = TRUE
 
 /datum/squad/marine/bravo
@@ -557,7 +567,7 @@
 				assign_fireteam("SQ1", M)
 				assign_ft_leader("SQ1", M)
 			else
-				var/squad_number = (Ceiling(num_riflemen / 2) > 2) ? pick(1, 2) : Ceiling(num_riflemen / 2)
+				var/squad_number = (Ceiling(num_tl / 2) > 2) ? pick(1, 2) : Ceiling(num_tl / 2)
 				assign_fireteam("SQ[squad_number]", M)
 				assign_ft_leader("SQ[squad_number]", M)
 		if(JOB_SQUAD_SMARTGUN)
@@ -566,8 +576,13 @@
 			if(name == SQUAD_MECHANIZED)
 				assign_fireteam("SQ1", M)
 			else
-				var/squad_number = (Ceiling(num_riflemen / 2) > 2) ? pick(1, 2) : Ceiling(num_riflemen / 2)
+				var/squad_number = (Ceiling(num_smartgun / 2) > 2) ? pick(1, 2) : Ceiling(num_smartgun / 2)
 				assign_fireteam("SQ[squad_number]", M)
+		if(JOB_SQUAD_HMG)
+			assignment = JOB_SQUAD_HMG
+			num_smartgun++
+			var/squad_number = (Ceiling(num_smartgun / 2) > 2) ? pick(1, 2) : Ceiling(num_smartgun / 2)
+			assign_fireteam("SQ[squad_number]", M)
 		if(JOB_SQUAD_LEADER)
 			if(squad_leader && GET_DEFAULT_ROLE(squad_leader.job) != JOB_SQUAD_LEADER) //field promoted SL
 				var/old_lead = squad_leader

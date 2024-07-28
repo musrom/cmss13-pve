@@ -29,5 +29,8 @@ endmap
 map ragnarok
 endmap
 
+map obama
+endmap
+
 map golden_arrow_classic
 endmap
