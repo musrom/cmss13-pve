@@ -40,7 +40,7 @@
 #define CLIENT_IS_MENTOR(cli) CLIENT_HAS_RIGHTS(cli, R_MENTOR)
 
 #define AHOLD_IS_MOD(ahold) (ahold && (ahold.rights & R_MOD))
-#define AHOLD_IS_ADMIN(ahold) (ahold && (ahold.rights & R_ADMIN))
+#define AHOLD_IS_ADMIN(ahold) (ahold && (ahold.rights & R_ADMIN)
 
 		//items that ask to be called every cycle
 
