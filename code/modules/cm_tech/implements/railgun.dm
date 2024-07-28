@@ -37,10 +37,10 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 
 	var/max_ammo = 10
 	var/ammo = 10
-	var/ammo_recharge_time = 30 SECONDS
-	var/ammo_delay = 10 SECONDS
+	var/ammo_recharge_time = 30 SECONDS	//How long it takes to get a new shot to your ammo counter
+	var/ammo_delay = 10 SECONDS			//How long it takes to hit the earth
 
-	var/fire_cooldown = 1.5 SECONDS
+	var/fire_cooldown = 1.5 SECONDS		//Cooldown between shots
 	var/next_fire = 0
 
 	var/power = 900
@@ -294,7 +294,8 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	max_ammo = 1
 	ammo = 1
 	ammo_recharge_time = 1 SECONDS
-	ammo_delay = 10 MINUTES	//So you know how long it takes between
+	fire_cooldown = 10 MINUTES	//So you know how long it takes betweenS
+	ammo_delay = 30 SECONDS
 	power = 1500
 	range = 15
 	warning_color = "#ff0000"
