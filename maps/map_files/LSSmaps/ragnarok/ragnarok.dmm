@@ -2352,6 +2352,9 @@
 /obj/item/clothing/under/marine/officer/boiler,
 /obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
 /obj/item/clothing/suit/storage/jacket/marine/service,
+/obj/item/weapon/gun/energy/rxfm5_eva{
+	name = "CO's RXF-M5 EVA pistol"
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "nY" = (
@@ -3072,6 +3075,9 @@
 /obj/item/clothing/head/cmcap/bridge{
 	pixel_x = 5;
 	pixel_y = 6
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)

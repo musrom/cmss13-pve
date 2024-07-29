@@ -465,7 +465,10 @@
 	job = "Platoon Commander";
 	name = "gun locker"
 	},
-/obj/item/weapon/gun/revolver/mateba/cmateba,
+/obj/item/weapon/gun/revolver/mateba/cmateba{
+	desc = "A recently polished revolver with a handful of crude engravings on it. Whoever engraved this tried very hard to scratch the name Eka out of it, but it's still quite visible.";
+	name = "\improper Lt. Xiao's Backshotter"
+	},
 /obj/item/storage/mateba_case/captain,
 /obj/item/storage/pouch/magazine/pistol/large/mateba/impact,
 /obj/item/storage/pouch/pistol/command,
@@ -3341,18 +3344,15 @@
 /area/golden_arrow/shared_office)
 "rN" = (
 /obj/structure/closet/coffin/woodencrate,
-/obj/item/ammo_magazine/rifle/m4ra/pve,
-/obj/item/ammo_magazine/rifle/m4ra/pve,
-/obj/item/ammo_magazine/rifle/m4ra/pve,
-/obj/item/ammo_magazine/rifle/m4ra/pve,
-/obj/item/ammo_magazine/rifle/m4ra/pve,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/weapon/gun/rifle/m4ra/pve{
-	pixel_y = 8
-	},
 /obj/structure/machinery/light{
 	dir = 4
 	},
+/obj/item/weapon/gun/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
