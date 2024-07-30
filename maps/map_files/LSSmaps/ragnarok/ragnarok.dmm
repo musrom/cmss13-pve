@@ -1025,9 +1025,9 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
 "fZ" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
-	name = "\improper Emergency Infirmary";
-	req_one_access = null
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -1485,6 +1485,11 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/hangar)
+"iP" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/head/helmet/specrag,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "iR" = (
 /obj/structure/machinery/floodlight/landing/floor,
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -2656,8 +2661,10 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "qw" = (
-/obj/structure/machinery/cryopod,
-/turf/open/floor/plating/plating_catwalk,
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
 /area/golden_arrow/cryo_cells)
 "qx" = (
 /obj/structure/surface/table/almayer,
@@ -2800,12 +2807,6 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
-"rS" = (
-/obj/effect/landmark/start/marine/leader/alpha,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/cryo_cells)
 "rT" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1
@@ -2814,18 +2815,6 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
-"rU" = (
-/obj/effect/landmark/start/marine/medic/alpha,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/cryo_cells)
-"rV" = (
-/obj/effect/landmark/start/bridge,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/cryo_cells)
 "sb" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/megaphone{
@@ -2838,12 +2827,6 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
-"sg" = (
-/obj/effect/landmark/start/marine/smartgunner/alpha,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/cryo_cells)
 "sk" = (
 /obj/structure/surface/table/almayer,
 /obj/item/reagent_container/glass/rag,
@@ -2862,17 +2845,6 @@
 	job = "Squad Sergeant";
 	pixel_x = 8
 	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/golden_arrow/cryo_cells)
-"sq" = (
-/obj/structure/closet/secure_closet/marine_personal{
-	job = "Platoon Commander"
-	},
-/obj/item/clothing/under/marine/officer/boiler,
-/obj/item/clothing/suit/storage/jacket/marine/service,
-/obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -2896,10 +2868,10 @@
 /turf/open/space/basic,
 /area/golden_arrow/shared_office)
 "sv" = (
-/obj/structure/machinery/floodlight/landing/floor,
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
 "sI" = (
 /turf/open/floor/almayer{
@@ -2920,12 +2892,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"sR" = (
-/obj/effect/landmark/start/marine/tl/alpha,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
-/turf/open/floor/plating/plating_catwalk,
-/area/golden_arrow/cryo_cells)
 "sX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -2934,9 +2900,9 @@
 	},
 /area/golden_arrow/hangar)
 "sY" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "SE-out";
-	pixel_x = 1
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
+	name = "\improper Emergency Infirmary";
+	req_one_access = null
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -2946,9 +2912,7 @@
 	},
 /area/golden_arrow/medical)
 "sZ" = (
-/obj/effect/landmark/start/marine/alpha,
-/obj/effect/landmark/late_join/alpha,
-/obj/effect/landmark/late_join,
+/obj/structure/machinery/cryopod,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
 "ta" = (
@@ -3033,8 +2997,10 @@
 	},
 /area/golden_arrow/platoonarmory)
 "tO" = (
-/obj/structure/surface/table/almayer,
-/turf/open/floor/almayer,
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
 "tP" = (
 /turf/open/floor/almayer/uscm{
@@ -3431,6 +3397,12 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"FX" = (
+/obj/effect/landmark/start/marine/smartgunner/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "Gw" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -3657,6 +3629,12 @@
 "Mt" = (
 /turf/open/floor/almayer,
 /area/golden_arrow/canteen)
+"Nd" = (
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "Ne" = (
 /obj/structure/machinery/floodlight/landing/floor,
 /turf/open/floor/plating/plating_catwalk,
@@ -3734,6 +3712,10 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
+"OG" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "OI" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	id = "equipment_conny";
@@ -3895,6 +3877,12 @@
 /obj/structure/barricade/handrail,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/supply)
+"SF" = (
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "SH" = (
 /obj/structure/bed/chair/comfy{
 	dir = 4
@@ -4279,6 +4267,12 @@
 "Zh" = (
 /turf/open/floor/plating,
 /area/golden_arrow/supply)
+"Zo" = (
+/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "Zp" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/shared_office)
@@ -13507,17 +13501,17 @@ VD
 Ne
 dz
 EG
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
 EG
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
+Sq
 EG
 EG
 EG
@@ -13659,17 +13653,17 @@ YL
 VD
 dz
 EG
+EG
 Sq
-qw
-rS
-sv
-qw
-sR
+sZ
 sv
 qw
 sZ
+Nd
+qw
+sZ
+SF
 Sq
-EG
 EG
 EG
 EG
@@ -13811,17 +13805,17 @@ YL
 Ne
 dz
 EG
-Sq
-qw
-rU
-iA
-qw
-sg
-iA
-qw
-sZ
-xV
 EG
+Sq
+sZ
+tO
+iA
+sZ
+FX
+iA
+sZ
+SF
+xV
 EG
 EG
 EG
@@ -13963,17 +13957,17 @@ YL
 VD
 dz
 EG
-Sq
-qw
-rV
-iA
-qw
-sZ
-iA
-qw
-sR
-xV
 EG
+Sq
+sZ
+Zo
+iA
+sZ
+SF
+iA
+sZ
+Nd
+xV
 EG
 EG
 EG
@@ -14115,17 +14109,17 @@ YL
 VD
 dz
 EG
-Sq
-qw
-sg
-iA
-qw
-sg
-iA
-qw
-sg
-xV
 EG
+Sq
+sZ
+FX
+iA
+sZ
+FX
+iA
+sZ
+FX
+xV
 EG
 EG
 EG
@@ -14267,17 +14261,17 @@ YL
 Ne
 dz
 EG
-Sq
-qw
-sg
-iA
-qw
-sg
-iA
-qw
-sZ
-xV
 EG
+Sq
+sZ
+FX
+iA
+sZ
+FX
+iA
+sZ
+SF
+xV
 EG
 EG
 EG
@@ -14419,17 +14413,17 @@ YL
 VD
 dz
 EG
+EG
 Sq
+sZ
+FX
 qw
-sg
-sv
 iA
 iA
-sv
+qw
 iA
 iA
 xV
-EG
 EG
 EG
 EG
@@ -14571,17 +14565,17 @@ YL
 VD
 dz
 EG
+EG
 Sq
-Sq
 iA
 iA
 iA
 iA
+OG
 iA
 iA
 iA
 xV
-EG
 EG
 EG
 EG
@@ -14731,9 +14725,9 @@ iA
 iA
 iA
 iA
-tO
+iA
+iP
 Sq
-EG
 EG
 EG
 EG
@@ -15333,7 +15327,7 @@ YL
 YT
 EG
 xV
-sq
+sp
 WT
 iA
 vk
@@ -16836,9 +16830,9 @@ xP
 vn
 zF
 vn
-fZ
-YF
+XD
 TD
+YF
 TD
 TD
 yF
@@ -17140,7 +17134,7 @@ Xd
 Xd
 Xd
 Xd
-XD
+fZ
 YF
 YF
 YF

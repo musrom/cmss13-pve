@@ -885,8 +885,6 @@
 /area/golden_arrow/platoonarmory)
 "dt" = (
 /obj/item/storage/belt/gun/utility/full,
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
 /obj/item/storage/box/guncase/m56d,
 /obj/structure/surface/rack,
 /obj/item/storage/belt/gun/smartpistol/full,
@@ -2133,7 +2131,7 @@
 	},
 /area/golden_arrow/platoonarmory)
 "ia" = (
-/obj/structure/largecrate/supply/ammo/m41amk1,
+/obj/structure/largecrate/supply/ammo/m56d,
 /obj/structure/largecrate/supply/ammo/m41amk1{
 	pixel_x = -3;
 	pixel_y = 10
@@ -3489,10 +3487,7 @@
 	},
 /area/golden_arrow/hangar)
 "AV" = (
-/obj/item/ammo_magazine/m56d,
-/obj/item/ammo_magazine/m56d,
 /obj/structure/surface/rack,
-/obj/item/ammo_magazine/m56d,
 /obj/item/storage/box/guncase/m56d,
 /obj/item/storage/belt/gun/smartpistol/full,
 /turf/open/floor/almayer{
