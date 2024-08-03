@@ -1332,6 +1332,9 @@
 	name = "sentry crate";
 	pixel_y = 5
 	},
+/obj/item/device/binoculars/range/designator,
+/obj/item/device/binoculars/range/designator,
+/obj/item/device/binoculars/range/designator,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "hW" = (
@@ -3040,21 +3043,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
-"tZ" = (
-/obj/structure/surface/table/almayer,
-/obj/item/weapon/straight_razor{
-	pixel_x = -5;
-	pixel_y = -5
-	},
-/obj/item/clothing/head/cmcap/bridge{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/structure/machinery/power/apc/almayer{
-	dir = 8
-	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoon_commander_rooms)
 "uh" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoon_commander_rooms)
@@ -3102,6 +3090,20 @@
 "vk" = (
 /turf/closed/wall/almayer,
 /area/golden_arrow/cryo_cells)
+"vl" = (
+/obj/structure/machinery/computer/railgun/flare{
+	dir = 1;
+	locked = 0;
+	pixel_x = 7
+	},
+/obj/structure/machinery/computer/railgun/beacon{
+	dir = 1;
+	locked = 0;
+	pixel_x = -10
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "vn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -3183,18 +3185,6 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/cryo_cells)
-"xW" = (
-/obj/structure/machinery/computer/railgun/flare{
-	dir = 1;
-	pixel_x = 7
-	},
-/obj/structure/machinery/computer/railgun/beacon{
-	dir = 1;
-	pixel_x = -10
-	},
-/obj/structure/surface/table/reinforced/almayer_B,
-/turf/open/floor/almayer,
-/area/golden_arrow/shared_office)
 "yb" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -3286,6 +3276,27 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"Bs" = (
+/obj/structure/machinery/prop{
+	desc = "This stylized recruitment poster for the USCM depicts a the head of a screaming eagle breaking into orbit, surrounded by flames. Death from above.";
+	icon = 'icons/obj/structures/props/posters.dmi';
+	icon_state = "poster41";
+	layer = 3.5;
+	name = "USCM recruitment poster";
+	pixel_x = -1;
+	pixel_y = 34
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Commander"
+	},
+/obj/item/clothing/under/marine/officer/boiler,
+/obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
+/obj/item/clothing/suit/storage/jacket/marine/service,
+/obj/item/weapon/gun/energy/rxfm5_eva{
+	name = "CO's RXF-M5 EVA pistol"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoon_commander_rooms)
 "BF" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/almayer,
@@ -3410,17 +3421,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/golden_arrow/supply)
-"FA" = (
-/obj/structure/phone_base/rotary/no_dnd{
-	name = "Combat Information Center Telephone";
-	phone_category = "Command";
-	phone_id = "Navigations and Gunnery Quarters";
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/structure/surface/table/reinforced/almayer_B,
-/turf/open/floor/almayer,
-/area/golden_arrow/shared_office)
 "FM" = (
 /obj/structure/largecrate/random/case/double,
 /obj/structure/largecrate/random/mini/small_case{
@@ -3552,27 +3552,6 @@
 	icon_state = "logo_directional1"
 	},
 /area/golden_arrow/canteen)
-"Jg" = (
-/obj/structure/machinery/prop{
-	desc = "This stylized recruitment poster for the USCM depicts a the head of a screaming eagle breaking into orbit, surrounded by flames. Death from above.";
-	icon = 'icons/obj/structures/props/posters.dmi';
-	icon_state = "poster41";
-	layer = 3.5;
-	name = "USCM recruitment poster";
-	pixel_x = -1;
-	pixel_y = 34
-	},
-/obj/structure/closet/secure_closet/marine_personal{
-	job = "Platoon Commander"
-	},
-/obj/item/clothing/under/marine/officer/boiler,
-/obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
-/obj/item/clothing/suit/storage/jacket/marine/service,
-/obj/item/weapon/gun/energy/rxfm5_eva{
-	name = "CO's RXF-M5 EVA pistol"
-	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoon_commander_rooms)
 "JC" = (
 /obj/structure/machinery/chem_master{
 	tether_range = 4
@@ -3695,6 +3674,21 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"Nv" = (
+/obj/structure/surface/table/almayer,
+/obj/item/weapon/straight_razor{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/clothing/head/cmcap/bridge{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoon_commander_rooms)
 "NA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -4056,6 +4050,17 @@
 	icon_state = "test_floor4"
 	},
 /area/golden_arrow/hangar)
+"We" = (
+/obj/structure/phone_base/rotary/no_dnd{
+	name = "Combat Information Center Telephone";
+	phone_category = "Command";
+	phone_id = "Navigations and Gunnery Quarters";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "Wh" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
@@ -10343,8 +10348,8 @@ EG
 EG
 EG
 uh
-Jg
-tZ
+Bs
+Nv
 uh
 EG
 EG
@@ -10953,7 +10958,7 @@ Zp
 Yk
 oK
 pN
-xW
+vl
 su
 EG
 EG
@@ -11257,7 +11262,7 @@ Zp
 mD
 oK
 pW
-FA
+We
 su
 EG
 EG
