@@ -95,6 +95,7 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/standard/ai/upp = JOB_SQUAD_MARINE),\
 
 		/datum/squad/marine/mechanized = list(/datum/job/command/bridge/ai = JOB_SO,\
+		/datum/job/command/bridge/ai/go = JOB_XO,\
 		/datum/job/command/crewman = JOB_PILOT,\
 		/datum/job/marine/medic/ai/mechanized =  JOB_SQUAD_MEDIC, \
 		/datum/job/marine/leader/ai = JOB_SQUAD_LEADER,\

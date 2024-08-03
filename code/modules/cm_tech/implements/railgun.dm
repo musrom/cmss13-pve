@@ -274,22 +274,23 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	return COMPONENT_TURF_ALLOW_MOVEMENT
 
 
-
+//High ammo, Fast Recharge, weak as sin
 /obj/structure/machinery/computer/railgun/gatling
 	name = "orbital gatling computer"
 	desc = "The younger sister to the railgun, this one is way weaker, however, it fires significantly faster. The higher your altitude, the faster your reload, and slower the shots hit."
-	max_ammo = 100
-	ammo = 100
-	ammo_recharge_time = 1 SECONDS
-	fire_cooldown = 0.1 SECONDS
+	max_ammo = 50
+	ammo = 50
+	ammo_recharge_time = 3 SECONDS
+	fire_cooldown = 0.2 SECONDS
 	ammo_delay = 3 SECONDS
 	power = 50
 	range = 1
 	warning_color = "#00ff00"
 
 
+//One shot, weaker than an OB
 /obj/structure/machinery/computer/railgun/orbital
-	name = "orbital computer"
+	name = "orbital cannon computer"
 	desc = "An Orbital cannon with a very long recharge time. The higher your altitude, the faster your reload, and slower the shots hit."
 	max_ammo = 1
 	ammo = 1
@@ -300,9 +301,10 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	range = 15
 	warning_color = "#ff0000"
 
+//Napalm strike
 /obj/structure/machinery/computer/railgun/napalm
 	name = "orbital napalm computer"
-	desc = "An Orbital cannon with a very long recharge time. The higher your altitude, the faster your reload, and slower the shots hit."
+	desc = "An Orbital cannon that fires a splash of napalm. The higher your altitude, the faster your reload, and slower the shots hit."
 	max_ammo = 5
 	ammo = 5
 	ammo_recharge_time = 45 SECONDS
@@ -317,3 +319,66 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 		firer.images -= to_remove
 		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
 		INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flame_radius), create_cause_data("railgun", firer.mob), 5, T, BURN_TIME_TIER_5 + 5, BURN_LEVEL_TIER_2, FLAMESHAPE_DEFAULT, FIRE_VARIANT_TYPE_B)
+
+
+//Flares for lighting up the area
+/obj/structure/machinery/computer/railgun/flare
+	name = "orbital flare computer"
+	desc = "An orbit to ground flare launcher. The higher your altitude, the faster your reload, and slower the shots hit."
+	max_ammo = 10
+	ammo = 10
+	ammo_recharge_time = 10 SECONDS
+	ammo_delay = 5 SECONDS
+	warning_color = "#d8ff57"
+
+/obj/structure/machinery/computer/railgun/flare/land_shot(turf/T, client/firer, obj/effect/warning/droppod/warning_zone, image/to_remove)
+	if(warning_zone)
+		qdel(warning_zone)
+
+	if(firer)
+		firer.images -= to_remove
+		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
+		if(istype(T, /turf/open))
+			var/obj/item/device/flashlight/flare/railgunflare = new /obj/item/device/flashlight/flare (T)
+			railgunflare.turn_on()
+
+// Beacons, for creating beacons on the ground
+/obj/structure/machinery/computer/railgun/beacon
+	name = "orbital beacon computer"
+	desc = "A deployable beacon machine. Sends a beacon from high altitude to the planet. The higher your altitude, the faster your reload, and slower the shots hit."
+	max_ammo = 1
+	ammo = 1
+	ammo_recharge_time = 120 SECONDS
+	ammo_delay = 15 SECONDS
+	warning_color = "#ffffff"
+
+/obj/structure/machinery/computer/railgun/beacon/land_shot(turf/T, client/firer, obj/effect/warning/droppod/warning_zone, image/to_remove)
+	if(warning_zone)
+		qdel(warning_zone)
+
+	if(firer)
+		firer.images -= to_remove
+		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
+		if(istype(T, /turf/open))
+			new /obj/structure/deployable_beacon/red (T)
+
+
+// A JIMA flag deployment system
+/obj/structure/machinery/computer/railgun/flag
+	name = "orbital flag drop computer"
+	desc = "A deployable JIMA flag railgun. Sends a flag from the ship to the ground. The higher your altitude, the faster your reload, and slower the shots hit."
+	max_ammo = 1
+	ammo = 1
+	ammo_recharge_time = 180 SECONDS
+	ammo_delay = 15 SECONDS
+	warning_color = "#ffffff"
+
+/obj/structure/machinery/computer/railgun/flag/land_shot(turf/T, client/firer, obj/effect/warning/droppod/warning_zone, image/to_remove)
+	if(warning_zone)
+		qdel(warning_zone)
+
+	if(firer)
+		firer.images -= to_remove
+		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
+		if(istype(T, /turf/open))
+			new /obj/structure/machinery/defenses/planted_flag (T)

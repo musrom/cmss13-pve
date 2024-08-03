@@ -1195,7 +1195,15 @@
 	},
 /area/golden_arrow/platoonarmory)
 "gR" = (
-/obj/structure/machinery/light,
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/item/bedsheet/rd,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/prop/magazine/book/theartofwar{
+	layer = 4.1;
+	pixel_x = -1
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "hc" = (
@@ -1324,6 +1332,9 @@
 	name = "sentry crate";
 	pixel_y = 5
 	},
+/obj/item/device/binoculars/range/designator,
+/obj/item/device/binoculars/range/designator,
+/obj/item/device/binoculars/range/designator,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "hW" = (
@@ -2337,31 +2348,10 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "nW" = (
-/obj/structure/machinery/prop{
-	desc = "This stylized recruitment poster for the USCM depicts a the head of a screaming eagle breaking into orbit, surrounded by flames. Death from above.";
-	icon = 'icons/obj/structures/props/posters.dmi';
-	icon_state = "poster41";
-	layer = 3.5;
-	name = "USCM recruitment poster";
-	pixel_x = -1;
-	pixel_y = 34
-	},
-/obj/structure/closet/secure_closet/marine_personal{
-	job = "Platoon Commander"
-	},
-/obj/item/clothing/under/marine/officer/boiler,
-/obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
-/obj/item/clothing/suit/storage/jacket/marine/service,
-/obj/item/weapon/gun/energy/rxfm5_eva{
-	name = "CO's RXF-M5 EVA pistol"
-	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoon_commander_rooms)
-"nY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
-"od" = (
+"nY" = (
 /obj/structure/sink{
 	layer = 3.1;
 	pixel_y = 24
@@ -2369,6 +2359,14 @@
 /obj/structure/mirror{
 	pixel_x = -1;
 	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoon_commander_rooms)
+"od" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Combat Information Centre";
+	req_access = list();
+	req_one_access_txt = "19;12"
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
@@ -2405,12 +2403,8 @@
 	},
 /area/golden_arrow/cryo_cells)
 "oI" = (
-/obj/structure/machinery/door/airlock/almayer/secure{
-	name = "\improper Combat Information Centre";
-	req_access = list();
-	req_one_access_txt = "19;12"
-	},
-/turf/open/floor/almayer,
+/obj/structure/machinery/cm_vending/clothing/dress,
+/turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoon_commander_rooms)
 "oK" = (
 /turf/open/floor/almayer,
@@ -2556,22 +2550,15 @@
 /turf/open/floor/wood/ship,
 /area/golden_arrow/dorms)
 "pK" = (
-/obj/structure/bed{
-	can_buckle = 0
-	},
-/obj/item/bedsheet/rd,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/prop/magazine/book/theartofwar{
-	layer = 4.1;
-	pixel_x = -1
-	},
-/turf/open/floor/almayer,
-/area/golden_arrow/platoon_commander_rooms)
-"pN" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/curtain/red,
 /turf/open/floor/plating,
 /area/golden_arrow/platoon_commander_rooms)
+"pN" = (
+/obj/structure/machinery/prop/almayer/CICmap,
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "pU" = (
 /obj/structure/bed/chair/comfy/charlie{
 	name = "gunnery officer chair"
@@ -2579,7 +2566,6 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "pW" = (
-/obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/drinks/coffee{
 	pixel_x = 5;
 	pixel_y = -4
@@ -2588,13 +2574,7 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/structure/phone_base/rotary/no_dnd{
-	name = "Combat Information Center Telephone";
-	phone_category = "Command";
-	phone_id = "Navigations and Gunnery Quarters";
-	pixel_x = 4;
-	pixel_y = 10
-	},
+/obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "qi" = (
@@ -2738,7 +2718,6 @@
 /turf/open/floor/wood/ship,
 /area/golden_arrow/dorms)
 "rb" = (
-/obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/railgun/orbital{
 	dir = 1;
 	locked = 0;
@@ -2749,6 +2728,7 @@
 	locked = 0;
 	pixel_x = -8
 	},
+/obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "rl" = (
@@ -2757,11 +2737,11 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "ro" = (
-/obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/altitude_control_console{
 	dir = 1;
 	icon_state = "terminal"
 	},
+/obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer,
 /area/golden_arrow/shared_office)
 "rr" = (
@@ -3067,18 +3047,7 @@
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoon_commander_rooms)
 "uE" = (
-/obj/structure/surface/table/almayer,
-/obj/item/weapon/straight_razor{
-	pixel_x = -5;
-	pixel_y = -5
-	},
-/obj/item/clothing/head/cmcap/bridge{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/structure/machinery/power/apc/almayer{
-	dir = 8
-	},
+/obj/structure/machinery/light,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoon_commander_rooms)
 "uF" = (
@@ -3121,6 +3090,20 @@
 "vk" = (
 /turf/closed/wall/almayer,
 /area/golden_arrow/cryo_cells)
+"vl" = (
+/obj/structure/machinery/computer/railgun/flare{
+	dir = 1;
+	locked = 0;
+	pixel_x = 7
+	},
+/obj/structure/machinery/computer/railgun/beacon{
+	dir = 1;
+	locked = 0;
+	pixel_x = -10
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "vn" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -3293,6 +3276,27 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"Bs" = (
+/obj/structure/machinery/prop{
+	desc = "This stylized recruitment poster for the USCM depicts a the head of a screaming eagle breaking into orbit, surrounded by flames. Death from above.";
+	icon = 'icons/obj/structures/props/posters.dmi';
+	icon_state = "poster41";
+	layer = 3.5;
+	name = "USCM recruitment poster";
+	pixel_x = -1;
+	pixel_y = 34
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Commander"
+	},
+/obj/item/clothing/under/marine/officer/boiler,
+/obj/item/clothing/suit/storage/jacket/marine/dress/officer/bomber,
+/obj/item/clothing/suit/storage/jacket/marine/service,
+/obj/item/weapon/gun/energy/rxfm5_eva{
+	name = "CO's RXF-M5 EVA pistol"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoon_commander_rooms)
 "BF" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/almayer,
@@ -3670,6 +3674,21 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"Nv" = (
+/obj/structure/surface/table/almayer,
+/obj/item/weapon/straight_razor{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/clothing/head/cmcap/bridge{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoon_commander_rooms)
 "NA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -4031,6 +4050,17 @@
 	icon_state = "test_floor4"
 	},
 /area/golden_arrow/hangar)
+"We" = (
+/obj/structure/phone_base/rotary/no_dnd{
+	name = "Combat Information Center Telephone";
+	phone_category = "Command";
+	phone_id = "Navigations and Gunnery Quarters";
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "Wh" = (
 /obj/structure/machinery/door/poddoor/almayer{
 	dir = 4;
@@ -4206,9 +4236,12 @@
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoonarmory)
 "Yk" = (
-/obj/structure/machinery/cm_vending/clothing/dress,
-/turf/closed/wall/almayer/outer,
-/area/golden_arrow/platoon_commander_rooms)
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/structure/machinery/prop/almayer/computer/NavCon2,
+/turf/open/floor/almayer,
+/area/golden_arrow/shared_office)
 "Yw" = (
 /obj/structure/machinery/cm_vending/sorted/tech/electronics_storage{
 	req_one_access = list()
@@ -10162,10 +10195,10 @@ ZX
 EG
 EG
 EG
-EG
-EG
-EG
-EG
+uh
+uh
+uh
+uh
 EG
 EG
 EG
@@ -10315,8 +10348,8 @@ EG
 EG
 EG
 uh
-uh
-uh
+Bs
+Nv
 uh
 EG
 EG
@@ -10466,7 +10499,7 @@ dz
 EG
 EG
 EG
-uh
+oI
 nW
 uE
 uh
@@ -10618,7 +10651,7 @@ dz
 EG
 EG
 EG
-Yk
+uh
 nY
 gR
 uh
@@ -10769,14 +10802,14 @@ YV
 dz
 EG
 EG
-EG
+uh
 uh
 od
 pK
 uh
+uh
 EG
-EG
-EG
+sQ
 EG
 EG
 EG
@@ -10921,14 +10954,14 @@ YV
 dz
 EG
 EG
-uh
-uh
-oI
+Zp
+Yk
+oK
 pN
-uh
-uh
+vl
+su
 EG
-sQ
+EG
 EG
 EG
 EG
@@ -11229,7 +11262,7 @@ Zp
 mD
 oK
 pW
-rl
+We
 su
 EG
 EG

@@ -357,7 +357,13 @@
 /area/golden_arrow/hangar)
 "bv" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/prop/almayer/CICmap,
+/obj/structure/machinery/prop/almayer/CICmap{
+	density = 0;
+	icon_state = "shuttle";
+	layer = 2.97;
+	name = "Tactical Map Display";
+	pixel_x = -3
+	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -4338,7 +4344,12 @@
 "Xx" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/railgun{
-	locked = 0
+	locked = 0;
+	pixel_x = -7
+	},
+/obj/structure/machinery/computer/railgun/gatling{
+	locked = 0;
+	pixel_x = 10
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -4346,8 +4357,13 @@
 /area/golden_arrow/shared_office)
 "XD" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/computer/railgun/gatling{
-	locked = 0
+/obj/structure/machinery/computer/railgun/flare{
+	locked = 0;
+	pixel_x = -5
+	},
+/obj/structure/machinery/computer/railgun/beacon{
+	locked = 0;
+	pixel_x = 12
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
