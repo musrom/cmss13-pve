@@ -338,8 +338,9 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	if(firer)
 		firer.images -= to_remove
 		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
-		new /obj/item/device/flashlight/flare (T)
-
+		if(istype(T, /turf/open))
+			var/obj/item/device/flashlight/flare/railgunflare = new /obj/item/device/flashlight/flare (T)
+			railgunflare.turn_on()
 
 // Beacons, for creating beacons on the ground
 /obj/structure/machinery/computer/railgun/beacon
@@ -358,7 +359,8 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	if(firer)
 		firer.images -= to_remove
 		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
-		new /obj/structure/deployable_beacon/red (T)
+		if(istype(T, /turf/open))
+			new /obj/structure/deployable_beacon/red (T)
 
 
 // A JIMA flag deployment system
@@ -378,4 +380,5 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	if(firer)
 		firer.images -= to_remove
 		playsound(T, 'sound/machines/railgun/railgun_impact.ogg', sound_range = 75)
-		new /obj/structure/machinery/defenses/planted_flag (T)
+		if(istype(T, /turf/open))
+			new /obj/structure/machinery/defenses/planted_flag (T)

@@ -74,18 +74,6 @@ AddTimelock(/datum/job/command/bridge, list(
 	gear_preset = /datum/equipment_preset/uscm_ship/so/upp
 	gear_preset_secondary = /datum/equipment_preset/uscm_ship/so/upp/lesser_rank
 
-//If you need a second SO for some maps
-/datum/job/command/bridge/ai/xo
-	title = JOB_WO_XO
-	total_positions = 1
-	spawn_positions = 1
-	job_options = list(SECOND_LT_VARIANT = "2ndLt")
-	gear_preset = /datum/equipment_preset/uscm_ship/so/xo
-
-//Need to force the OG outfit
-/datum/job/command/bridge/ai/xo/handle_job_options(option)
-	gear_preset = initial(gear_preset)
-
 /obj/effect/landmark/start/bridge/upp
 	name = JOB_SO_UPP
 	icon_state = "so_spawn"
