@@ -1442,14 +1442,14 @@
 "fK" = (
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
 	req_access = list();
-	req_one_access_txt = "8;12;39;40"
+	req_one_access_txt = null
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
 "fL" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
 	req_one_access = list();
-	req_one_access_txt = "8;12;39;40"
+	req_one_access_txt = null
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
@@ -1979,9 +1979,18 @@
 	},
 /area/golden_arrow/canteen)
 "hu" = (
-/obj/structure/machinery/cm_vending/clothing/medical_crew,
-/turf/closed/wall/almayer,
-/area/golden_arrow/medical)
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Squad Sergeant";
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Squad Sergeant";
+	pixel_x = -7
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
 "hv" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
@@ -2029,6 +2038,9 @@
 /area/golden_arrow/platoonarmory)
 "hC" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/clothing/medic{
+	pixel_y = 23
+	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor5"
 	},
@@ -2358,18 +2370,18 @@
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/cryo_cells)
 "jj" = (
-/obj/structure/machinery/door/airlock/almayer/engineering/glass{
+/obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 2;
-	name = "\improper Mortar Operator room"
+	name = "\improper Mortar Operator's room"
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
 /area/golden_arrow/supply)
 "jk" = (
-/obj/structure/machinery/door/airlock/almayer/engineering/glass{
+/obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 2;
-	name = "\improper FOB Engineer room"
+	name = "\improper Engineer's room"
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -3303,6 +3315,19 @@
 	icon_state = "plate"
 	},
 /area/golden_arrow/hangar)
+"pd" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Sergeant";
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Corpsman";
+	pixel_x = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
 "py" = (
 /obj/structure/closet/secure_closet/platoon_sergeant,
 /obj/effect/decal/cleanable/dirt,
@@ -3452,10 +3477,6 @@
 	},
 /area/golden_arrow/platoonarmory)
 "xM" = (
-/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
-	req_access = list();
-	req_one_access_txt = "8;12;39;40"
-	},
 /obj/item/reagent_container/food/drinks/cans/souto/blue{
 	pixel_x = 10;
 	pixel_y = 21
@@ -3464,6 +3485,10 @@
 	icon_state = "lattice3";
 	pixel_x = 16;
 	pixel_y = -15
+	},
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
+	req_access = list();
+	req_one_access_txt = null
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonarmory)
@@ -13619,8 +13644,8 @@ hP
 iW
 iW
 kl
-kl
-kl
+hu
+pd
 lL
 ma
 mm
@@ -13922,7 +13947,7 @@ hz
 hP
 iY
 jC
-iW
+iR
 kP
 lk
 lL
@@ -17416,7 +17441,7 @@ ZO
 ZO
 ZO
 Yx
-hu
+SM
 hC
 hD
 cp
