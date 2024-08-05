@@ -16,7 +16,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	job_options = list(SECOND_LT_VARIANT = "2ndLt")
-	gear_preset = /datum/equipment_preset/uscm_ship/so/xo
+	gear_preset = /datum/equipment_preset/uscm_ship/so/go
 
 //Need to force the OG outfit
 /datum/job/command/bridge/ai/go/handle_job_options(option)
