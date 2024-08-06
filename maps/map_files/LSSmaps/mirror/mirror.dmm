@@ -2,6 +2,16 @@
 "a" = (
 /turf/open/space/basic,
 /area/space)
+"b" = (
+/obj/effect/landmark/start/marine/medic,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"c" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
 "d" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/almayer{
@@ -9,45 +19,45 @@
 	},
 /area/almayer/engineering/laundry)
 "e" = (
+/obj/item/tool/soap/nanotrasen,
 /obj/structure/curtain/shower{
 	pixel_x = 0;
 	pixel_y = -18
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/space)
-"f" = (
-/obj/structure/surface/table/woodentable,
-/obj/item/tool/soap/nanotrasen{
-	pixel_x = -7;
-	pixel_y = 6
+/obj/structure/machinery/shower{
+	pixel_y = 16
 	},
-/turf/open/floor/almayer,
-/area/space)
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"f" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/living/starboard_garden)
 "g" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
+"h" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 30
+	},
+/turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
 "i" = (
-/obj/structure/surface/table/woodentable,
-/obj/item/tool/soap/nanotrasen,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow/cryo_cells)
 "j" = (
-/obj/structure/machinery/cryopod/right,
+/obj/structure/machinery/cryopod,
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
-/area/space)
+/area/golden_arrow/cryo_cells)
 "k" = (
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
 "l" = (
-/obj/structure/surface/table/woodentable,
-/obj/structure/bedsheetbin{
-	pixel_y = 6
-	},
-/turf/open/floor/almayer,
-/area/space)
+/obj/structure/window/framed/almayer/hull,
+/turf/open/floor/plating,
+/area/almayer/living/starboard_garden)
 "n" = (
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
@@ -69,31 +79,32 @@
 "p" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
 "q" = (
-/obj/structure/machinery/shower{
-	pixel_y = 16
-	},
 /obj/structure/curtain/shower{
 	pixel_x = 0;
 	pixel_y = -18
 	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
 /turf/open/floor/plating/plating_catwalk,
-/area/space)
+/area/golden_arrow/cryo_cells)
 "r" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
 "u" = (
 /obj/structure/sink/puddle,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
 "v" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Prep Lockers"
+	name = "\improper Cryogenics Bay"
 	},
-/turf/closed/wall/almayer,
-/area/space)
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "w" = (
 /obj/structure/coatrack{
 	pixel_y = 1;
@@ -114,7 +125,7 @@
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
-/area/space)
+/area/golden_arrow/cryo_cells)
 "z" = (
 /obj/structure/machinery/cryopod/right{
 	layer = 3.1;
@@ -123,7 +134,7 @@
 /turf/open/floor/almayer{
 	icon_state = "sterile_green"
 	},
-/area/space)
+/area/golden_arrow/cryo_cells)
 "A" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/engineering/laundry)
@@ -136,6 +147,14 @@
 "D" = (
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
+"E" = (
+/obj/structure/sign/safety/cryo{
+	name = "hypersleep semiotic";
+	pixel_x = 15;
+	pixel_y = 28
+	},
+/turf/open/floor/almayer,
 /area/space)
 "F" = (
 /obj/structure/surface/rack{
@@ -146,75 +165,104 @@
 	},
 /area/almayer/engineering/laundry)
 "G" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Rest and Relaxation Area";
+	dir = 2
+	},
+/turf/open/floor/almayer,
+/area/space)
+"H" = (
+/obj/structure/bedsheetbin,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"I" = (
+/obj/structure/machinery/shower{
+	dir = 8
+	},
+/obj/item/tool/soap/nanotrasen{
+	pixel_y = 0
+	},
 /obj/structure/barricade/metal{
 	dir = 8;
 	pixel_x = -1
 	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"J" = (
+/obj/effect/landmark/start/intel,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"K" = (
+/turf/closed/wall/almayer,
+/area/almayer/engineering/laundry)
+"L" = (
+/turf/closed/wall/almayer,
+/area/almayer/living/starboard_garden)
+"M" = (
+/obj/structure/flora/bush/ausbushes/var3/brflowers,
+/turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
+"N" = (
+/turf/closed/wall/almayer/white,
+/area/golden_arrow/cryo_cells)
+"O" = (
+/obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 30
+	},
+/turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
+"P" = (
+/obj/structure/curtain/shower{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"Q" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/cryo_cells)
+"S" = (
+/obj/structure/machinery/cryopod/right,
+/turf/open/floor/almayer{
+	icon_state = "sterile_green"
+	},
+/area/golden_arrow/cryo_cells)
+"T" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/cryo_cells)
+"U" = (
 /obj/structure/curtain/shower{
 	pixel_x = 0;
 	pixel_y = -18
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/space)
-"I" = (
-/turf/closed/wall/almayer/white,
-/area/space)
-"K" = (
-/turf/closed/wall/almayer,
-/area/almayer/engineering/laundry)
-"M" = (
-/obj/structure/flora/bush/ausbushes/var3/brflowers,
-/turf/open/floor/grass,
-/area/space)
-"N" = (
-/obj/structure/machinery/shower{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/space)
-"Q" = (
-/obj/structure/machinery/shower{
-	dir = 8
-	},
-/obj/structure/barricade/metal{
-	dir = 8;
-	pixel_x = -1
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/space)
-"S" = (
-/obj/structure/machinery/cryopod,
-/turf/open/floor/almayer{
-	icon_state = "sterile_green"
-	},
-/area/space)
-"T" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
-	name = "\improper Cryo Bay"
-	},
-/turf/closed/wall/almayer,
-/area/space)
+/area/golden_arrow/cryo_cells)
 "V" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
 "W" = (
-/obj/structure/mirror{
-	pixel_x = -1;
-	pixel_y = 35
-	},
+/obj/effect/landmark/start/captain,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow/cryo_cells)
 "X" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "\improper Laundry Room"
 	},
-/turf/closed/wall/almayer,
+/turf/open/floor/almayer,
 /area/almayer/engineering/laundry)
 "Y" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
 /turf/open/floor/grass,
-/area/space)
+/area/almayer/living/starboard_garden)
+"Z" = (
+/obj/effect/landmark/start/marine,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 
 (1,1,1) = {"
 a
@@ -12136,14 +12184,14 @@ a
 a
 a
 a
-C
-C
-C
-C
-C
-C
-C
-x
+Q
+Q
+Q
+Q
+Q
+Q
+Q
+T
 B
 B
 x
@@ -12288,14 +12336,14 @@ a
 a
 a
 a
-C
-B
-B
-B
-B
-B
-B
-x
+Q
+J
+b
+i
+Z
+Z
+i
+T
 B
 B
 x
@@ -12440,17 +12488,17 @@ a
 a
 a
 a
-C
-j
+Q
+S
 z
-B
-j
+i
+S
 z
-B
+i
 T
 B
 B
-v
+x
 B
 B
 B
@@ -12592,15 +12640,15 @@ a
 a
 a
 a
-C
-S
+Q
+j
 y
-B
-S
+i
+j
 y
-B
-x
-B
+i
+T
+E
 B
 x
 B
@@ -12744,17 +12792,17 @@ a
 a
 a
 a
-C
+Q
 W
+i
+i
+i
+i
+i
+v
 B
 B
 B
-B
-B
-x
-B
-B
-x
 B
 B
 B
@@ -12896,17 +12944,17 @@ a
 a
 a
 a
-C
-j
-z
+Q
+i
+i
+i
+i
+i
+i
+i
 B
-j
-z
-B
-T
 B
 B
-v
 B
 B
 B
@@ -13048,14 +13096,14 @@ a
 a
 a
 a
-C
+Q
 S
-y
-B
+z
+i
 S
-y
-B
-x
+z
+i
+T
 B
 B
 x
@@ -13200,14 +13248,14 @@ a
 a
 a
 a
-C
-B
-B
-B
-B
-B
-B
-x
+Q
+j
+y
+i
+j
+y
+i
+T
 B
 B
 x
@@ -13352,14 +13400,14 @@ a
 a
 a
 a
-C
 Q
-G
-B
-B
-B
-B
-x
+i
+i
+i
+i
+i
+i
+T
 B
 B
 x
@@ -13504,16 +13552,16 @@ a
 a
 a
 a
-C
+Q
 I
 q
-B
 i
-f
+i
+i
+i
+T
 B
-x
-x
-x
+G
 x
 x
 K
@@ -13656,15 +13704,15 @@ a
 a
 a
 a
-C
-I
-q
-B
-l
-x
-x
-x
-k
+Q
+N
+P
+i
+i
+T
+T
+T
+h
 k
 k
 k
@@ -13808,12 +13856,12 @@ a
 a
 a
 a
-C
+Q
 N
 e
-B
-x
-x
+i
+i
+T
 Y
 g
 k
@@ -13960,12 +14008,12 @@ a
 a
 a
 a
-C
-C
-C
-C
-x
-k
+Q
+c
+U
+i
+H
+L
 k
 k
 k
@@ -13975,8 +14023,8 @@ k
 k
 k
 k
-x
-C
+L
+f
 a
 a
 a
@@ -14112,12 +14160,12 @@ a
 a
 a
 a
-a
-a
-a
 C
-k
-k
+C
+C
+C
+C
+L
 k
 k
 u
@@ -14128,7 +14176,7 @@ k
 g
 k
 k
-C
+f
 a
 a
 a
@@ -14267,9 +14315,9 @@ a
 a
 a
 a
-C
-C
-k
+a
+a
+L
 D
 k
 k
@@ -14279,8 +14327,8 @@ k
 k
 k
 k
-C
-C
+f
+f
 a
 a
 a
@@ -14420,8 +14468,8 @@ a
 a
 a
 a
-C
-C
+a
+L
 k
 r
 k
@@ -14430,8 +14478,8 @@ k
 k
 k
 k
-C
-C
+f
+f
 a
 a
 a
@@ -14573,16 +14621,16 @@ a
 a
 a
 a
-C
-C
-C
-V
+f
+f
+f
+O
 k
 k
 k
-C
-C
-C
+f
+f
+f
 a
 a
 a
@@ -14727,12 +14775,12 @@ a
 a
 a
 a
-C
-C
-C
-C
-C
-C
+f
+l
+l
+l
+l
+f
 a
 a
 a
