@@ -2,9 +2,35 @@
 "a" = (
 /turf/open/space/basic,
 /area/space)
+"d" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/almayer/engineering/laundry)
+"e" = (
+/obj/structure/curtain/shower{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
+"f" = (
+/obj/structure/surface/table/woodentable,
+/obj/item/tool/soap/nanotrasen{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/space)
 "g" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/floor/grass,
+/area/space)
+"i" = (
+/obj/structure/surface/table/woodentable,
+/obj/item/tool/soap/nanotrasen,
+/turf/open/floor/almayer,
 /area/space)
 "j" = (
 /obj/structure/machinery/cryopod/right,
@@ -15,13 +41,70 @@
 "k" = (
 /turf/open/floor/grass,
 /area/space)
+"l" = (
+/obj/structure/surface/table/woodentable,
+/obj/structure/bedsheetbin{
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/space)
+"n" = (
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/almayer/engineering/laundry)
+"o" = (
+/obj/structure/machinery/washing_machine,
+/obj/structure/machinery/washing_machine{
+	layer = 3.5;
+	pixel_y = 15
+	},
+/obj/structure/sign/safety/waterhazard{
+	pixel_x = -17
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/almayer/engineering/laundry)
 "p" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /turf/open/floor/grass,
 /area/space)
+"q" = (
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/curtain/shower{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
 "r" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
 /turf/open/floor/grass,
+/area/space)
+"u" = (
+/obj/structure/sink/puddle,
+/turf/open/floor/grass,
+/area/space)
+"v" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Prep Lockers"
+	},
+/turf/closed/wall/almayer,
+/area/space)
+"w" = (
+/obj/structure/coatrack{
+	pixel_y = 1;
+	pixel_x = -5
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/almayer/engineering/laundry)
+"x" = (
+/turf/closed/wall/almayer,
 /area/space)
 "y" = (
 /obj/structure/machinery/cryopod{
@@ -41,6 +124,9 @@
 	icon_state = "sterile_green"
 	},
 /area/space)
+"A" = (
+/turf/closed/wall/almayer/outer,
+/area/almayer/engineering/laundry)
 "B" = (
 /turf/open/floor/almayer,
 /area/space)
@@ -51,9 +137,50 @@
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /turf/open/floor/grass,
 /area/space)
+"F" = (
+/obj/structure/surface/rack{
+	pixel_y = 19
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/almayer/engineering/laundry)
+"G" = (
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/curtain/shower{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
+"I" = (
+/turf/closed/wall/almayer/white,
+/area/space)
+"K" = (
+/turf/closed/wall/almayer,
+/area/almayer/engineering/laundry)
 "M" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/floor/grass,
+/area/space)
+"N" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
+"Q" = (
+/obj/structure/machinery/shower{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/space)
 "S" = (
 /obj/structure/machinery/cryopod,
@@ -61,10 +188,29 @@
 	icon_state = "sterile_green"
 	},
 /area/space)
+"T" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Cryo Bay"
+	},
+/turf/closed/wall/almayer,
+/area/space)
 "V" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /turf/open/floor/grass,
 /area/space)
+"W" = (
+/obj/structure/mirror{
+	pixel_x = -1;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/space)
+"X" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	name = "\improper Laundry Room"
+	},
+/turf/closed/wall/almayer,
+/area/almayer/engineering/laundry)
 "Y" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
 /turf/open/floor/grass,
@@ -11997,16 +12143,16 @@ C
 C
 C
 C
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+B
+x
+x
+x
+x
+x
+x
+x
 a
 a
 a
@@ -12149,16 +12295,16 @@ B
 B
 B
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+B
+x
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -12301,16 +12447,16 @@ B
 j
 z
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+T
+B
+B
+v
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -12453,16 +12599,16 @@ B
 S
 y
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+B
+x
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -12599,22 +12745,22 @@ a
 a
 a
 C
+W
 B
 B
 B
 B
 B
+x
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+B
+x
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -12757,16 +12903,16 @@ B
 j
 z
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+T
+B
+B
+v
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -12909,16 +13055,16 @@ B
 S
 y
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+B
+x
+B
+B
+B
+B
+B
+x
 a
 a
 a
@@ -13061,16 +13207,16 @@ B
 B
 B
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+B
+x
+B
+K
+K
+X
+K
+A
 a
 a
 a
@@ -13207,22 +13353,22 @@ a
 a
 a
 C
+Q
+G
 B
 B
 B
 B
+x
 B
 B
-C
-a
-a
-a
-a
-a
-a
-a
-a
-a
+x
+B
+K
+o
+n
+w
+A
 a
 a
 a
@@ -13359,22 +13505,22 @@ a
 a
 a
 C
+I
+q
 B
+i
+f
 B
-B
-B
-B
-B
-C
-C
-C
-C
-C
-C
-a
-a
-a
-a
+x
+x
+x
+x
+x
+K
+d
+n
+n
+A
 a
 a
 a
@@ -13511,22 +13657,22 @@ a
 a
 a
 C
+I
+q
 B
-B
-B
-B
-C
-C
-C
+l
+x
+x
+x
 k
 k
 k
 k
-C
-C
-C
-a
-a
+K
+K
+K
+F
+A
 a
 a
 a
@@ -13663,11 +13809,11 @@ a
 a
 a
 C
+N
+e
 B
-B
-B
-C
-C
+x
+x
 Y
 g
 k
@@ -13676,9 +13822,9 @@ r
 k
 p
 k
-C
-C
-a
+K
+K
+A
 a
 a
 a
@@ -13818,7 +13964,7 @@ C
 C
 C
 C
-C
+x
 k
 k
 k
@@ -13829,7 +13975,7 @@ k
 k
 k
 k
-C
+x
 C
 a
 a
@@ -13974,7 +14120,7 @@ k
 k
 k
 k
-k
+u
 k
 k
 k
