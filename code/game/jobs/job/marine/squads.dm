@@ -159,6 +159,25 @@
 	minimap_color = "#32CD32"
 	usable = TRUE
 
+/datum/squad/marine/mechanized
+	name = SQUAD_MECHANIZED
+	access = list(ACCESS_MARINE_ALPHA)
+	equipment_color = "#ffc32d"
+	chat_color = "#ffe650"
+	radio_freq = ALPHA_FREQ
+	minimap_color = MINIMAP_SQUAD_BRAVO
+	usable = TRUE
+
+/datum/squad/marine/weapons
+	name = SQUAD_WEAPONS
+	access = list(ACCESS_MARINE_ALPHA)
+	radio_freq = ALPHA_FREQ
+	equipment_color = "#4148c8"
+	chat_color = "#828cff"
+	radio_freq = ALPHA_FREQ
+	minimap_color = MINIMAP_SQUAD_DELTA
+	usable = TRUE
+
 /datum/squad/marine/bravo
 	name = SQUAD_MARINE_2
 	equipment_color = "#ffc32d"
@@ -524,8 +543,11 @@
 		if(JOB_SQUAD_MARINE)
 			assignment = JOB_SQUAD_MARINE
 			num_riflemen++
-			var/squad_number = (Ceiling(num_riflemen / 2) > 2) ? pick(1, 2) : Ceiling(num_riflemen / 2)
-			assign_fireteam("SQ[squad_number]", M)
+			if(name == SQUAD_MECHANIZED)
+				assign_fireteam("SQ1", M)
+			else
+				var/squad_number = (Ceiling(num_riflemen / 2) > 2) ? pick(1, 2) : Ceiling(num_riflemen / 2)
+				assign_fireteam("SQ[squad_number]", M)
 		if(JOB_SQUAD_ENGI)
 			assignment = JOB_SQUAD_ENGI
 			num_engineers++
@@ -541,13 +563,25 @@
 			assignment = JOB_SQUAD_TEAM_LEADER
 			num_tl++
 			M.important_radio_channels += radio_freq
-			var/squad_number = (num_tl > 2) ? pick(1, 2) : num_tl
-			assign_fireteam("SQ[squad_number]", M)
-			assign_ft_leader("SQ[squad_number]", M)
+			if(name == SQUAD_MECHANIZED)
+				assign_fireteam("SQ1", M)
+				assign_ft_leader("SQ1", M)
+			else
+				var/squad_number = (Ceiling(num_tl / 2) > 2) ? pick(1, 2) : Ceiling(num_tl / 2)
+				assign_fireteam("SQ[squad_number]", M)
+				assign_ft_leader("SQ[squad_number]", M)
 		if(JOB_SQUAD_SMARTGUN)
 			assignment = JOB_SQUAD_SMARTGUN
 			num_smartgun++
-			var/squad_number = (num_smartgun > 2) ? pick(1, 2) : num_smartgun
+			if(name == SQUAD_MECHANIZED)
+				assign_fireteam("SQ1", M)
+			else
+				var/squad_number = (Ceiling(num_smartgun / 2) > 2) ? pick(1, 2) : Ceiling(num_smartgun / 2)
+				assign_fireteam("SQ[squad_number]", M)
+		if(JOB_SQUAD_HMG)
+			assignment = JOB_SQUAD_HMG
+			num_smartgun++
+			var/squad_number = (Ceiling(num_smartgun / 2) > 2) ? pick(1, 2) : Ceiling(num_smartgun / 2)
 			assign_fireteam("SQ[squad_number]", M)
 		if(JOB_SQUAD_LEADER)
 			if(squad_leader && GET_DEFAULT_ROLE(squad_leader.job) != JOB_SQUAD_LEADER) //field promoted SL

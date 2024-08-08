@@ -1,0 +1,9 @@
+{
+    "map_name": "USS Barrack Obama",
+    "map_path": "map_files/LSSmaps/obama",
+    "map_file": "obama.dmm",
+    "webmap_url": "Almayer",
+    "traits": [{"Marine Main Ship": true}],
+    "nightmare_path": "maps/Nightmare/maps/USS_Almayer/",
+    "platoon": "/datum/squad/marine/weapons"
+}

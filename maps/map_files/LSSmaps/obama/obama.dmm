@@ -1,0 +1,27396 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/cobweb2/dynamic,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"ae" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"af" = (
+/obj/structure/machinery/door_control/brbutton{
+	id = "apc1blastdoor";
+	name = "vehicle bay blast door control";
+	pixel_y = 28
+	},
+/obj/structure/machinery/door_control/brbutton{
+	id = "apcbayrailing1";
+	name = "vehicle bay railing control";
+	pixel_x = 13;
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"ah" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/largecrate/random/secure{
+	pixel_y = 10
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aj" = (
+/obj/structure/surface/table/almayer,
+/obj/item/hardpoint/support/flare_launcher{
+	pixel_y = 11
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"ak" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"al" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"ar" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"at" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"au" = (
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_y = 38
+	},
+/obj/structure/sign/safety/hazard{
+	pixel_x = 14;
+	pixel_y = 38
+	},
+/obj/structure/sign/safety/ammunition{
+	pixel_y = 26
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"av" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aw" = (
+/obj/structure/machinery/landinglight/ds1/delaythree,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aE" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aI" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"aM" = (
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blackcorner"
+	},
+/area/golden_arrow/hangar)
+"aP" = (
+/obj/structure/largecrate/random/secure,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aT" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"aU" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 28
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"aX" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "apcbayrailing1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"aY" = (
+/obj/structure/ship_ammo/minirocket,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/ship_ammo/minirocket{
+	layer = 3.1;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"aZ" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
+	name = "\improper Emergency Infirmary";
+	req_one_access = null
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"ba" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bd" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 4;
+	id = "apc1blastdoor";
+	name = "\improper Vehicle Bay One Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"bg" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"bj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bl" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/sign/banners/united_americas_flag{
+	pixel_x = -17;
+	pixel_y = 31
+	},
+/obj/structure/machinery/computer/ares_console{
+	pixel_y = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bm" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/structure/machinery/computer/card,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bq" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"br" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bs" = (
+/obj/structure/bed/chair/comfy/teal{
+	name = "co's chair"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bt" = (
+/obj/item/tool/weldingtool,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"bv" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap{
+	density = 0;
+	icon_state = "shuttle";
+	layer = 2.97;
+	name = "Tactical Map Display";
+	pixel_x = -3
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/catwalk{
+	pixel_x = 2;
+	pixel_y = -9
+	},
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bB" = (
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "blackcorner"
+	},
+/area/golden_arrow/hangar)
+"bC" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bF" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bG" = (
+/obj/structure/machinery/door/poddoor/railing{
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/machinery/door/poddoor/railing{
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/railing{
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"bM" = (
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "blackcorner"
+	},
+/area/golden_arrow/hangar)
+"bP" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Commander";
+	name = "gun locker"
+	},
+/obj/item/weapon/gun/revolver/mateba/cmateba{
+	desc = "A recently polished revolver with a handful of crude engravings on it. Whoever engraved this tried very hard to scratch the name Eka out of it, but it's still quite visible.";
+	name = "\improper Lt. Xiao's Backshotter"
+	},
+/obj/item/storage/mateba_case/captain,
+/obj/item/storage/pouch/magazine/pistol/large/mateba/impact,
+/obj/item/storage/pouch/pistol/command,
+/obj/item/device/cotablet,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/ids,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/item/clothing/glasses/eyepatch,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/mirror{
+	pixel_x = -1;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bR" = (
+/obj/item/bedsheet/rd,
+/obj/structure/bed,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"bT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/shared_office)
+"bV" = (
+/obj/item/stack/catwalk{
+	pixel_x = 4
+	},
+/obj/item/stack/catwalk{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"bX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/case/small,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"bY" = (
+/obj/structure/bed/chair/comfy/bravo{
+	dir = 1;
+	name = "xo's chair"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cc" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Officer Armory";
+	req_access = list();
+	req_one_access_txt = "19"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"cg" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/paper_bin/uscm{
+	pixel_x = -8
+	},
+/obj/item/tool/pen{
+	pixel_x = -10;
+	pixel_y = -3
+	},
+/obj/item/folder/black{
+	pixel_x = 7
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"ci" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"cj" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"cm" = (
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"co" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4;
+	name = "\improper Second Platoon Ready Bay Blast Door"
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"cp" = (
+/obj/structure/pipes/vents/pump{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"cq" = (
+/obj/structure/sign/safety/bulkhead_door{
+	pixel_y = 27
+	},
+/obj/structure/sign/safety/hazard{
+	pixel_x = 14;
+	pixel_y = 27
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"cr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cs" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	pixel_x = -2
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cu" = (
+/obj/structure/machinery/floodlight/landing/floor{
+	pixel_x = 3
+	},
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cy" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"cA" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hop,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cB" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer/uscm{
+	dir = 10;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"cC" = (
+/turf/open/floor/almayer/uscm{
+	dir = 8;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"cE" = (
+/obj/structure/reagent_dispensers/fueltank{
+	layer = 2.97
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cF" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hop,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cH" = (
+/obj/item/clothing/under/marine/officer/boiler,
+/obj/item/clothing/suit/storage/jacket/marine/service,
+/obj/structure/closet,
+/obj/item/clothing/accessory/ranks/marine/o1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cL" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cN" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Platoon Sergeant Quarters";
+	req_access = list();
+	req_one_access_txt = "19;12"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cQ" = (
+/turf/open/floor/almayer/uscm{
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"cR" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/uscm{
+	dir = 1
+	},
+/area/golden_arrow/shared_office)
+"cT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"cU" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/flashlight/lamp/green,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"cY" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/paper_bin/uscm,
+/obj/item/tool/pen{
+	pixel_x = -14;
+	pixel_y = 4
+	},
+/obj/item/folder/black,
+/obj/item/clothing/head/cmcap/bridge{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"de" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"df" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/scrubber{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"dh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"di" = (
+/obj/structure/sign/banners/united_americas_flag{
+	pixel_x = -30;
+	pixel_y = 31
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"dj" = (
+/obj/structure/bed/chair/comfy/teal{
+	name = "co's chair"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"dk" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/canteen)
+"dm" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/canteen)
+"dp" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"dq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/squad_sergeant{
+	name = "squad one sergeant locker";
+	req_access_txt = "32;39";
+	req_one_access = list()
+	},
+/obj/item/device/binoculars/range,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"ds" = (
+/obj/item/weapon/gun/rifle/l42a,
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/ammo_magazine/rifle/l42a/heap,
+/obj/item/ammo_magazine/rifle/l42a/incendiary,
+/obj/item/ammo_magazine/rifle/l42a/incendiary,
+/obj/item/ammo_magazine/rifle/l42a/ap,
+/obj/item/ammo_magazine/rifle/l42a/ap,
+/obj/item/ammo_magazine/rifle/l42a/heap,
+/obj/item/attachable/scope,
+/obj/item/attachable/scope/mini_iff,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"dt" = (
+/obj/item/storage/belt/gun/utility/full,
+/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m56d,
+/obj/item/storage/box/guncase/m56d,
+/obj/structure/surface/rack,
+/obj/item/storage/belt/gun/smartpistol/full,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"dv" = (
+/obj/structure/largecrate/supply/supplies/flares,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"dz" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"dA" = (
+/obj/structure/largecrate/supply/ammo/m41amk1,
+/obj/structure/largecrate/supply/ammo/m41amk1{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/obj/item/reagent_container/food/drinks/cans/souto/cherry{
+	pixel_x = -2;
+	pixel_y = 15
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"dC" = (
+/obj/structure/gun_rack/m41,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"dF" = (
+/obj/item/storage/box/guncase/lmg,
+/obj/item/storage/box/guncase/r4t_scout{
+	pixel_y = 10
+	},
+/obj/structure/surface/rack,
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
+"dM" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"dR" = (
+/obj/structure/surface/rack{
+	pixel_y = 19
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/medical/ointment{
+	pixel_x = 2;
+	pixel_y = 34
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"dS" = (
+/obj/structure/sink{
+	layer = 3.1;
+	pixel_y = 24
+	},
+/obj/structure/mirror{
+	pixel_x = -1;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"dW" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/megaphone{
+	pixel_x = 11;
+	pixel_y = 7
+	},
+/obj/item/prop/tableflag/uscm{
+	pixel_x = -12;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"dX" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/prop/almayer/CICmap/arc{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"dY" = (
+/obj/structure/surface/table/almayer,
+/obj/item/notepad/black,
+/obj/item/tool/pen{
+	pixel_x = -10;
+	pixel_y = 8
+	},
+/obj/item/prop/tableflag{
+	pixel_x = 12;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"ee" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "equipment_conny";
+	name = "\improper Equipment Locker"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"eh" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"ei" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "equipment_conny";
+	name = "\improper Equipment Locker"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"em" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/turf/closed/wall/almayer,
+/area/golden_arrow/platoonarmory)
+"en" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"eo" = (
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"ep" = (
+/obj/effect/decal/strata_decals/grime/grime4,
+/obj/effect/decal/strata_decals/grime/grime2{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"eq" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"es" = (
+/obj/structure/bed/chair/comfy/bravo{
+	dir = 4;
+	name = "xo's chair"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"eu" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"ev" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"ew" = (
+/obj/structure/bed/chair/comfy/delta{
+	dir = 8;
+	name = "platoon sergeant chair"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"ex" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"ez" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"eC" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"eF" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow,
+/obj/structure/machinery/door_control/brbutton{
+	id = "weapons_conny";
+	name = "weapons locker shutter control";
+	pixel_x = -5;
+	pixel_y = 23;
+	req_one_access_txt = "19;12"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"eG" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/dorms)
+"eI" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/barricade/metal{
+	dir = 4;
+	pixel_x = 1
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/structure/curtain/red,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"eJ" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"eN" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/kitchen/tray{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/storage/box/cups{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/reagent_container/food/condiment/hotsauce/tabasco{
+	pixel_x = 14;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"eP" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/coffeecup/wy{
+	desc = "A matte gray coffee mug bearing the Weyland-Yutani logo on its front. Looks like someone spat in it.";
+	name = "dip cup";
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"eQ" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"eR" = (
+/obj/structure/surface/table/almayer,
+/obj/item/trash/plate{
+	pixel_x = 4;
+	pixel_y = 13
+	},
+/obj/item/trash/plate{
+	pixel_x = -3
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"eS" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"eV" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	dir = 1;
+	name = "\improper Equipment Room"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"eX" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/platoonarmory)
+"eY" = (
+/obj/structure/machinery/light,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/platoonarmory)
+"fa" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 1;
+	name = "Bathroom"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/dorms)
+"fb" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"fh" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"fi" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"fj" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "squadarmory";
+	name = "\improper Gear Lockers"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"fo" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "squadarmory";
+	name = "\improper Gear Lockers"
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"fp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/vending/walkman{
+	density = 0;
+	pixel_x = 10;
+	pixel_y = 21
+	},
+/obj/item/trash/kepler{
+	pixel_x = 8;
+	pixel_y = 44
+	},
+/obj/item/trash/barcardine,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/atm{
+	pixel_y = 26
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"ft" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_y = 25
+	},
+/obj/structure/pipes/vents/pump,
+/obj/item/trash/uscm_mre{
+	pixel_x = 9;
+	pixel_y = 14
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fw" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fx" = (
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fA" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fE" = (
+/obj/structure/machinery/landinglight/ds1{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fF" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fG" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet,
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fH" = (
+/obj/structure/surface/table/almayer,
+/obj/item/trash/plate{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/item/reagent_container/food/snacks/protein_pack{
+	pixel_x = 3;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"fI" = (
+/obj/structure/surface/table/almayer,
+/obj/item/trash/plate{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"fK" = (
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
+	req_access = list();
+	req_one_access_txt = null
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
+"fL" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad{
+	req_one_access = list();
+	req_one_access_txt = null
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
+"fM" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fP" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"fS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fU" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fV" = (
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"fY" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"fZ" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/recharger{
+	pixel_y = -14
+	},
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -4;
+	pixel_y = 15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gb" = (
+/obj/structure/machinery/telecomms/relay/preset/tower,
+/turf/open/floor/almayer,
+/area/golden_arrow/engineering)
+"gd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gf" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gh" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_x = -11;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/cmcap{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"gk" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/machinery/computer/cameras/wooden_tv/prop{
+	dir = 4;
+	layer = 3.2;
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gl" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 3
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gq" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gr" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gt" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/dorms)
+"gu" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/canteen)
+"gw" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"gx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"gy" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/obj/item/prop/magazine/dirty{
+	desc = "A copy of Playboy magazine. On the cover is photo of guitarist Sadie Summers, with the headline 'Sadie Summers tells ALL'. The article itself focuses on Sadie's many carnal exploits while on tour as well as her very public brawl at an LA nightclub that occured two years prior to the date of this issue. Flipping through the magazine you see article titles such as 'Jungle Mercenary: Life as an Ex-UPP commando', 'The whys and hows of choosing synthetic girls'.";
+	icon_state = "poster3";
+	name = "Playboy Magazine: Issue March 2182";
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/canteen)
+"gz" = (
+/obj/structure/machinery/door_control/brbutton{
+	id = "squadarmory";
+	name = "gear locker shutter control";
+	pixel_y = 28;
+	req_one_access_txt = "19;12"
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/platoonarmory)
+"gA" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/platoonarmory)
+"gB" = (
+/obj/structure/machinery/prop{
+	density = 1;
+	desc = "A pump used for refueling the dropship.";
+	icon_state = "pipe_d";
+	layer = 2.7;
+	name = "refueling pump";
+	pixel_y = -5
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"gD" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/surface/table/almayer,
+/obj/item/prop/magazine/dirty/torn{
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/item/trash/cigbutt{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/trash/eat{
+	pixel_x = 10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"gE" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gF" = (
+/obj/structure/bed/chair{
+	dir = 8;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"gK" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"gM" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"gO" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/dorms)
+"gR" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	dir = 1;
+	name = "\improper Dorms"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/canteen)
+"gV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"gW" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"gY" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/largecrate/random/case{
+	pixel_y = 11
+	},
+/obj/item/reagent_container/food/drinks/coffee/marine{
+	layer = 3.11;
+	pixel_x = 4;
+	pixel_y = 15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"hb" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/largecrate/random/mini/small_case/c{
+	pixel_x = -15;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/cigarette/cigar/tarbacks{
+	pixel_x = -13;
+	pixel_y = 10
+	},
+/obj/item/storage/fancy/cigar/matchbook/brown{
+	pixel_y = 2
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"he" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"hf" = (
+/obj/structure/prop/dam/crane,
+/obj/structure/prop{
+	density = 1;
+	desc = "A cooling system for the Tripoli. It produces additional cooling reducing delays between launch. The pipes are crooked and bent,  hoses are sliced open, and that's not even mentioning the bullet holes. Looks to be an older model as well.";
+	icon = 'icons/obj/structures/props/almayer_props64.dmi';
+	icon_state = "cooling_system";
+	layer = 3.1;
+	name = "Damaged FS/ACS-9 cooling system";
+	pixel_y = 16
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"hg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = -29
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/disposal{
+	density = 0;
+	layer = 3.2;
+	pixel_y = 16
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hl" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hn" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hp" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hq" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet,
+/obj/structure/machinery/light,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hs" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"ht" = (
+/obj/structure/machinery/cm_vending/sorted/marine_food,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"hu" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Squad Sergeant";
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Squad Sergeant";
+	pixel_x = -7
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"hv" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"hx" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"hy" = (
+/obj/structure/machinery/vending/coffee{
+	pixel_x = 14;
+	pixel_y = -1
+	},
+/obj/structure/machinery/vending/snack/packaged{
+	pixel_x = -7
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"hz" = (
+/obj/structure/machinery/vending/cigarette{
+	pixel_x = 4
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"hA" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad Two Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"hC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/clothing/medic{
+	pixel_y = 23
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor5"
+	},
+/area/golden_arrow/medical)
+"hD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"hG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad Two Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"hH" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad Two Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"hJ" = (
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hL" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"hM" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"hN" = (
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"hP" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/cryo_cells)
+"hS" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
+	name = "\improper Cryo Bay"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"hT" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"hU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/squad_sergeant{
+	name = "squad two sergeant locker";
+	req_access_txt = "32;40";
+	req_one_access = list()
+	},
+/obj/item/device/binoculars/range,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"hW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"hX" = (
+/obj/item/weapon/gun/rifle/l42a,
+/obj/structure/closet/coffin/woodencrate,
+/obj/item/ammo_magazine/rifle/l42a/heap,
+/obj/item/ammo_magazine/rifle/l42a/incendiary,
+/obj/item/ammo_magazine/rifle/l42a/incendiary,
+/obj/item/ammo_magazine/rifle/l42a/ap,
+/obj/item/ammo_magazine/rifle/l42a/ap,
+/obj/item/ammo_magazine/rifle/l42a/heap,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"ia" = (
+/obj/structure/largecrate/supply/ammo/m41amk1,
+/obj/structure/largecrate/supply/ammo/m41amk1{
+	pixel_x = -3;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"ib" = (
+/obj/structure/largecrate/supply/motiondetectors,
+/obj/structure/largecrate/supply/explosives/grenades/less{
+	icon_state = "case";
+	pixel_y = 10
+	},
+/obj/item/ammo_box/magazine/mk1{
+	layer = 3.1;
+	pixel_x = -2;
+	pixel_y = 14
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"ic" = (
+/obj/structure/largecrate/supply/supplies/metal,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"id" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/guncase/lmg,
+/obj/item/storage/box/guncase/r4t_scout{
+	pixel_y = 10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
+"ie" = (
+/obj/structure/closet/crate,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"im" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"in" = (
+/obj/structure/machinery/light,
+/obj/structure/closet/crate,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"io" = (
+/obj/vehicle/powerloader/jd,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"ir" = (
+/obj/structure/reagent_dispensers/fueltank{
+	anchored = 1;
+	icon = 'icons/obj/structures/props/generic_props.dmi';
+	icon_state = "weldtank_old";
+	layer = 2.9
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"iw" = (
+/obj/structure/machinery/light,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"ix" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/ares_console{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iA" = (
+/obj/structure/bed/chair,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iC" = (
+/obj/structure/bed/chair,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iF" = (
+/obj/structure/ship_ammo/minirocket,
+/obj/structure/ship_ammo/minirocket{
+	layer = 3.1;
+	pixel_y = 9
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"iG" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iH" = (
+/obj/structure/machinery/alarm/almayer{
+	dir = 1
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice2";
+	pixel_x = 16;
+	pixel_y = 16
+	},
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iI" = (
+/obj/structure/surface/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/under/marine/officer/boiler,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iK" = (
+/obj/structure/machinery/washing_machine,
+/obj/structure/machinery/washing_machine{
+	layer = 3.5;
+	pixel_y = 15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"iN" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	layer = 3.1;
+	pixel_y = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"iP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"iQ" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/soap{
+	pixel_x = -5;
+	pixel_y = -5
+	},
+/obj/item/tool/soap{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/item/tool/soap/nanotrasen{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"iR" = (
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"iS" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"iU" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"iW" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"iY" = (
+/obj/structure/machinery/computer/cryopod{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"iZ" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/cryo_cells)
+"jj" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2;
+	name = "\improper Mortar Operator's room"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"jk" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 2;
+	name = "\improper Engineer's room"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"jl" = (
+/obj/structure/largecrate/random/secure,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"jn" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"jp" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/camera{
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/obj/item/device/camera_film{
+	pixel_y = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"jr" = (
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck/uno,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"jt" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"ju" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"jv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/crushed_cup{
+	pixel_x = 6;
+	pixel_y = -10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"jw" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/golden_arrow/cryo_cells)
+"jx" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/obj/structure/barricade/handrail{
+	layer = 3.1;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"jy" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tool/soap/deluxe{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"jz" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"jA" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"jC" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"jF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"jI" = (
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"jJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/closet/crate/trashcart{
+	pixel_y = 11
+	},
+/obj/item/prop/colony/usedbandage,
+/obj/item/prop/colony/usedbandage{
+	dir = 4
+	},
+/obj/item/prop/colony/usedbandage{
+	dir = 6;
+	pixel_y = 6
+	},
+/obj/item/prop/colony/usedbandage{
+	dir = 10;
+	pixel_y = 13
+	},
+/obj/item/storage/pill_bottle,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"jK" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/bodybags{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = 10;
+	pixel_y = 18
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"jN" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/roller{
+	pixel_y = 17
+	},
+/obj/item/roller{
+	pixel_y = 23
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"jP" = (
+/obj/structure/machinery/cm_vending/sorted/medical/blood{
+	density = 0;
+	pixel_y = 24;
+	req_access = list()
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "test_floor5"
+	},
+/area/golden_arrow/medical)
+"jS" = (
+/obj/structure/surface/rack,
+/obj/item/mortar_kit{
+	pixel_y = 6
+	},
+/obj/item/mortar_kit,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"jU" = (
+/obj/structure/largecrate/supply/supplies/metal,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"jW" = (
+/obj/structure/surface/rack,
+/obj/item/storage/belt/gun/utility/full,
+/obj/item/storage/pouch/construction/full_barbed_wire,
+/obj/item/storage/pouch/construction/full,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/item/clothing/head/helmet/marine/tech,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"jZ" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"ka" = (
+/obj/structure/surface/table/almayer,
+/obj/item/prop/colony/game{
+	pixel_x = 15;
+	pixel_y = 10
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"kc" = (
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck,
+/obj/structure/machinery/light,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"ke" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"kf" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"kh" = (
+/obj/structure/surface/table/almayer,
+/obj/item/clothing/suit/storage/jacket/marine/service{
+	pixel_x = 11
+	},
+/obj/item/prop/magazine/dirty/torn{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"kj" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/bedsheetbin{
+	pixel_y = 6
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"kl" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"km" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/item/toy/plush/therapy/blue{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/toy/plush/therapy/random_color,
+/obj/item/storage/belt/gun/m4a3/vp78,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kp" = (
+/obj/structure/pipes/vents/scrubber,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kq" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/canteen)
+"kr" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kt" = (
+/obj/structure/machinery/door/airlock/almayer/medical{
+	dir = 8;
+	name = "\improper Chemistry Subsection";
+	req_one_access = list();
+	req_one_access_txt = "8;12"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"ku" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kx" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_x = -1
+	},
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/firealarm{
+	dir = 4;
+	pixel_x = 21
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kA" = (
+/obj/structure/surface/table/almayer,
+/obj/item/prop/almayer/comp_open{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"kB" = (
+/obj/structure/largecrate/supply/explosives/mortar_flare,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"kD" = (
+/obj/structure/surface/rack,
+/obj/item/storage/backpack/marine/mortarpack,
+/obj/item/storage/belt/gun/mortarbelt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8;
+	name = "ship-grade camera"
+	},
+/obj/structure/machinery/power/apc/almayer{
+	dir = 4
+	},
+/obj/item/storage/pouch/magazine/pistol/large/vp78,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"kE" = (
+/obj/structure/machinery/cm_vending/sorted/tech/electronics_storage{
+	req_access = null;
+	req_one_access_txt = "7;23;27"
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/supply)
+"kI" = (
+/obj/structure/surface/rack,
+/obj/item/defenses/handheld/planted_flag,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8;
+	name = "ship-grade camera"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"kK" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/dorms)
+"kL" = (
+/obj/structure/machinery/shower{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"kO" = (
+/obj/structure/machinery/light,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"kP" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"kQ" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/reagentgrinder,
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25;
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/glass/beaker,
+/obj/item/reagent_container/glass/beaker,
+/obj/item/reagent_container/glass/beaker/large,
+/obj/item/reagent_container/glass/beaker/large,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kT" = (
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kU" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/computer/med_data/laptop{
+	dir = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"kV" = (
+/obj/structure/machinery/medical_pod/bodyscanner{
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"kW" = (
+/obj/structure/machinery/body_scanconsole{
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"kY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"ld" = (
+/obj/effect/decal/strata_decals/grime/grime1{
+	dir = 8
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"le" = (
+/obj/structure/largecrate/supply/explosives/mortar_incend,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"lf" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/guncase/vp78,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"lg" = (
+/obj/structure/machinery/cm_vending/sorted/tech/tool_storage,
+/obj/structure/sign/safety/storage{
+	pixel_x = -18
+	},
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/supply)
+"li" = (
+/obj/structure/surface/rack,
+/obj/item/storage/box/guncase/vp78,
+/obj/item/storage/box/guncase/pumpshotgun/special{
+	pixel_y = 7
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"lk" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	pixel_x = 8
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"lo" = (
+/obj/structure/machinery/chem_dispenser,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lp" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/reagent_container/glass/beaker/bluespace,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lq" = (
+/obj/structure/machinery/chem_master{
+	tether_range = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"ls" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"ly" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/medical_doctor,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lB" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/structure/machinery/recharger{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lD" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"lG" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"lJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"lL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"lM" = (
+/obj/structure/machinery/medical_pod/sleeper,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"lO" = (
+/obj/structure/machinery/sleep_console{
+	dir = 4;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"lQ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -8
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	pixel_x = -1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"lV" = (
+/obj/effect/landmark/start/marine/leader/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/cryo_cells)
+"lX" = (
+/obj/effect/landmark/start/marine/medic/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/cryo_cells)
+"lZ" = (
+/obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/cryo_cells)
+"ma" = (
+/obj/effect/landmark/start/marine/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/cryo_cells)
+"mb" = (
+/obj/effect/landmark/start/marine/tl/alpha,
+/obj/effect/landmark/late_join/alpha,
+/obj/effect/landmark/late_join,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/cryo_cells)
+"mc" = (
+/obj/structure/machinery/autodoc_console{
+	dir = 1;
+	pixel_y = 6
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/sign/safety/autodoc{
+	pixel_x = -17
+	},
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = -29
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"mf" = (
+/obj/structure/machinery/medical_pod/autodoc{
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"mj" = (
+/obj/structure/machinery/medical_pod/autodoc{
+	dir = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"mk" = (
+/obj/structure/machinery/autodoc_console,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3;
+	pixel_x = -1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/safety/autodoc{
+	pixel_x = 32
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"mm" = (
+/obj/structure/machinery/cryopod,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"nL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"nW" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer/uscm{
+	dir = 6;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"oa" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice1";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/closed/wall/almayer,
+/area/golden_arrow/platoonarmory)
+"os" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/shuttle/dropship/flight/remote_control{
+	layer = 3.1;
+	name = "Midway Remote Control Console";
+	pixel_y = 6;
+	shuttleId = "dropship_midway"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"oR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"oW" = (
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar,
+/turf/open/floor/plating,
+/area/golden_arrow/hangar)
+"oX" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"pd" = (
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Sergeant";
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Platoon Corpsman";
+	pixel_x = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"py" = (
+/obj/structure/closet/secure_closet/platoon_sergeant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"qk" = (
+/obj/structure/ship_ammo/minirocket,
+/obj/structure/ship_ammo/minirocket{
+	layer = 3.1;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"qI" = (
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	density = 0;
+	pixel_y = 24
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor5"
+	},
+/area/golden_arrow/medical)
+"qS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S";
+	pixel_x = -16
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"qW" = (
+/turf/open/floor/almayer/uscm{
+	dir = 9;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"rN" = (
+/obj/structure/closet/coffin/woodencrate,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/item/weapon/gun/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/obj/item/ammo_magazine/minigun,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"sO" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"td" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"tC" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	dir = 1;
+	name = "\improper Combat Information Centre";
+	req_access = list();
+	req_one_access_txt = "19"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"uh" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 2;
+	name = "\improper Storage Bay Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"uU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"uY" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/bedsheetbin{
+	pixel_y = 14
+	},
+/obj/item/storage/pill_bottle/paracetamol{
+	pixel_x = -5
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"vL" = (
+/obj/structure/machinery/alarm/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"wq" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/golden_arrow/medical)
+"wG" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/altitude_control_console,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"wN" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/canteen)
+"wR" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/supply)
+"xy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad One Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"xM" = (
+/obj/item/reagent_container/food/drinks/cans/souto/blue{
+	pixel_x = 10;
+	pixel_y = 21
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep{
+	req_access = list();
+	req_one_access_txt = null
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonarmory)
+"yX" = (
+/turf/open/floor/plating,
+/area/golden_arrow/hangar)
+"zf" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"zR" = (
+/obj/structure/machinery/landinglight/ds1{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"AC" = (
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 8;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"AV" = (
+/obj/item/ammo_magazine/m56d,
+/obj/item/ammo_magazine/m56d,
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/m56d,
+/obj/item/storage/box/guncase/m56d,
+/obj/item/storage/belt/gun/smartpistol/full,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"Bf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"By" = (
+/obj/structure/machinery/gear{
+	id = "supply_elevator_gear"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "blackcorner"
+	},
+/area/golden_arrow/hangar)
+"Ca" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Ch" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Cm" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/dorms)
+"Cv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"CJ" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad One Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"CK" = (
+/obj/structure/machinery/power/apc/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"Ea" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 1
+	},
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "weapons_conny";
+	name = "\improper Squad One Weapons Locker";
+	pixel_y = -4
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"EG" = (
+/turf/open/space/basic,
+/area/space)
+"ES" = (
+/obj/structure/surface/table/almayer,
+/obj/item/storage/toolbox/mechanical/green{
+	pixel_y = 6
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"EV" = (
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"Fe" = (
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer/uscm{
+	dir = 5;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"Fg" = (
+/obj/structure/surface/rack,
+/obj/item/ammo_magazine/rifle/lmg,
+/obj/item/ammo_magazine/rifle/lmg,
+/obj/item/ammo_magazine/rifle/lmg,
+/obj/item/ammo_magazine/rifle/lmg,
+/obj/item/ammo_box/magazine/l42a,
+/obj/item/ammo_box/magazine/lever_action/marksman,
+/obj/item/attachable/magnetic_harness/lever_sling,
+/obj/item/attachable/magnetic_harness/lever_sling,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"Fk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"Fm" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Executive Officer's Quarters";
+	req_access = list();
+	req_one_access_txt = "19"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"FD" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"FN" = (
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"FR" = (
+/obj/structure/window/framed/almayer,
+/turf/open/space/basic,
+/area/golden_arrow/shared_office)
+"FU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out"
+	},
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Gy" = (
+/obj/structure/surface/rack,
+/obj/item/device/radio/marine,
+/obj/item/device/radio/marine,
+/obj/item/device/radio/marine,
+/obj/item/folded_tent/cmd,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "redfull"
+	},
+/area/golden_arrow/shared_office)
+"HN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/hardpoint/locomotion/apc_wheels,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"HT" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	dir = 1;
+	name = "\improper Command Bunks";
+	req_access = list();
+	req_one_access_txt = "19;12"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"It" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"IM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer/uscm{
+	dir = 1;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"Ja" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"Jb" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 2;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"Jx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"JB" = (
+/obj/structure/barricade/metal{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_y = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 4;
+	pixel_y = 8
+	},
+/obj/structure/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/curtain{
+	pixel_y = -10
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/dorms)
+"JE" = (
+/obj/structure/closet/secure_closet/guncabinet/red/cic_armory_mk1_rifle_ap,
+/turf/open/floor/almayer{
+	icon_state = "redfull"
+	},
+/area/golden_arrow/shared_office)
+"JR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Kk" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap,
+/obj/item/clothing/glasses/hud/health,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"Kw" = (
+/obj/structure/closet/crate,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"KO" = (
+/obj/structure/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Lk" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/medical)
+"Ll" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/faxmachine/uscm/command/capt{
+	name = "Commanding Officer's Fax Machine"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"Lo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Lx" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"LI" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"LL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/vehicle_spawner/tank/fixed/autocannon{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Ms" = (
+/obj/structure/surface/table/almayer,
+/obj/item/device/binoculars/range,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"Mt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"MG" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/largecrate/random/case/double,
+/obj/item/toy/beach_ball/holoball{
+	pixel_x = -2;
+	pixel_y = 15
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"MT" = (
+/turf/open/floor/almayer/uscm{
+	dir = 4;
+	icon_state = "logo_directional1"
+	},
+/area/golden_arrow/shared_office)
+"Nj" = (
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Nw" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Of" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"Ot" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Ov" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"OJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaythree,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"PA" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/obj/structure/machinery/landinglight/ds1/delayone{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"PP" = (
+/obj/structure/machinery/status_display{
+	pixel_y = 30
+	},
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/obj/structure/machinery/computer/tech_control,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"PS" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 13
+	},
+/obj/item/storage/belt/medical/full,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"PU" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"PV" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/phone_base/rotary/no_dnd{
+	name = "Combat Information Center Telephone";
+	phone_category = "Command";
+	phone_id = "Combat Information Center";
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/paper_bin/uscm{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/tool/pen{
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/obj/structure/machinery/alarm/almayer{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"PX" = (
+/turf/open/space/basic,
+/area/golden_arrow/shared_office)
+"PY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/strata_decals/grime/grime1,
+/obj/effect/decal/strata_decals/grime/grime4,
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/hangar)
+"Qo" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 4;
+	id = "bay1door";
+	name = "\improper Weapons Bay One Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"QK" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 4;
+	id = "apc1blastdoor";
+	name = "\improper Vehicle Bay One Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"QN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"QO" = (
+/obj/structure/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/cryo_cells)
+"QY" = (
+/obj/structure/ship_ammo/rocket/widowmaker,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"Rk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"RS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Si" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Sn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Sr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "equipment_conny";
+	name = "\improper Equipment Locker"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"SM" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/medical)
+"TD" = (
+/obj/structure/ship_ammo/minirocket,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/ship_ammo/minirocket{
+	layer = 3.1;
+	pixel_y = 9
+	},
+/turf/open/floor/almayer{
+	dir = 10;
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"TK" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/overwatch{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"TL" = (
+/obj/structure/machinery/landinglight/ds1/delayone,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"TU" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	pixel_x = 16;
+	pixel_y = -15
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/platoonarmory)
+"TZ" = (
+/obj/structure/ship_ammo/rocket/widowmaker,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"Us" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/canteen)
+"UA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"UI" = (
+/obj/structure/machinery/power/fusion_engine{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/engineering)
+"UV" = (
+/obj/structure/machinery/light,
+/obj/structure/closet/crate,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Vi" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	dir = 1;
+	name = "\improper Combat Information Centre";
+	req_access = list();
+	req_one_access_txt = "19;12"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"Vm" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/dorms)
+"Vn" = (
+/obj/structure/largecrate/supply/explosives/mortar_he,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/supply)
+"VD" = (
+/obj/structure/machinery/landinglight/ds1/delaytwo{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"VM" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/hangar)
+"VO" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/medical/bruise_pack{
+	pixel_x = -12;
+	pixel_y = 7
+	},
+/obj/item/stack/medical/ointment{
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"VZ" = (
+/obj/structure/ship_ammo/rocket/napalm,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"We" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/shared_office)
+"Wk" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/platoonarmory)
+"Wn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"Wx" = (
+/obj/structure/machinery/landinglight/ds1{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"WA" = (
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"WC" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"WD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/golden_arrow/medical)
+"WH" = (
+/obj/structure/closet/secure_closet/guncabinet/red/cic_armory_mk1_rifle_ap,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "redfull"
+	},
+/area/golden_arrow/shared_office)
+"WM" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 8
+	},
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4;
+	name = "\improper Second Platoon Ready Bay Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"WT" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/large_holster/ceremonial_sword/full,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"WU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"Xf" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/platoonarmory)
+"Xp" = (
+/obj/structure/stairs,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"Xv" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "cargo_arrow"
+	},
+/area/golden_arrow/hangar)
+"Xx" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/railgun{
+	locked = 0;
+	pixel_x = -7
+	},
+/obj/structure/machinery/computer/railgun/gatling{
+	locked = 0;
+	pixel_x = 10
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"XD" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/computer/railgun/flare{
+	locked = 0;
+	pixel_x = -5
+	},
+/obj/structure/machinery/computer/railgun/beacon{
+	locked = 0;
+	pixel_x = 12
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"XE" = (
+/obj/structure/closet/secure_closet/staff_officer/armory/shotgun{
+	name = "officer's armory locker"
+	},
+/turf/open/floor/almayer{
+	icon_state = "redfull"
+	},
+/area/golden_arrow/shared_office)
+"XF" = (
+/obj/structure/stairs,
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"XO" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4;
+	name = "\improper Second Platoon Ready Bay Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"Yi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/alarm/almayer{
+	dir = 1
+	},
+/obj/structure/machinery/door_control/brbutton{
+	id = "equipment_conny";
+	name = "equipment locker shutter control";
+	pixel_x = -5;
+	pixel_y = 23;
+	req_one_access_txt = "19;12"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"Yj" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/supply)
+"Yx" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"YA" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/poddoor/railing{
+	dir = 4;
+	id = "apcbayrailing1"
+	},
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "black"
+	},
+/area/golden_arrow/hangar)
+"YD" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"YF" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/platoonarmory)
+"YK" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/hangar)
+"YL" = (
+/obj/structure/foamed_metal,
+/turf/open/floor/plating,
+/area/golden_arrow/hangar)
+"YT" = (
+/obj/structure/bed/chair/office/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"YU" = (
+/obj/structure/machinery/door/airlock/almayer/secure{
+	name = "\improper Platoon Commander's Quarters";
+	req_access = list();
+	req_one_access_txt = "19"
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"YZ" = (
+/obj/structure/ship_ammo/rocket/widowmaker,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"Zc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"Ze" = (
+/turf/open/floor/almayer{
+	icon_state = "cargo"
+	},
+/area/golden_arrow/hangar)
+"Zp" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow/shared_office)
+"Zr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/medical)
+"Zt" = (
+/obj/structure/machinery/cm_vending/clothing/dress,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"Zu" = (
+/turf/closed/wall/almayer,
+/area/golden_arrow/shared_office)
+"ZE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/hangar)
+"ZF" = (
+/obj/structure/machinery/door/poddoor/almayer{
+	dir = 2;
+	name = "\improper Storage Bay Blast Door"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/hangar)
+"ZI" = (
+/obj/structure/machinery/photocopier,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"ZN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+"ZO" = (
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/hangar)
+"ZT" = (
+/obj/structure/machinery/door/poddoor/shutters/almayer{
+	id = "squadarmory";
+	name = "\improper Gear Lockers"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/golden_arrow/platoonarmory)
+"ZX" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ashtray/bronze{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/obj/item/storage/fancy/cigar,
+/obj/item/tool/lighter/zippo/gold,
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/golden_arrow/shared_office)
+
+(1,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(2,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(3,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(4,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(5,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(6,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(7,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(8,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(9,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(10,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(11,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(12,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(13,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(14,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(15,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(16,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(17,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(18,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(19,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(20,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(21,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(22,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(23,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(24,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(25,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(26,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(27,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(28,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(29,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(30,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(31,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(32,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(33,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(34,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(35,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(36,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(37,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(38,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(39,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(40,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(41,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(42,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(43,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+fp
+fY
+eG
+fY
+hg
+eG
+ix
+jl
+eG
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(44,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+fr
+fZ
+gk
+gD
+hi
+hJ
+gd
+jn
+jZ
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(45,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+Vm
+Vm
+Vm
+Vm
+ft
+gd
+gl
+gE
+hl
+hL
+iA
+jp
+ka
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(46,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+dR
+en
+eG
+eG
+fw
+gd
+gm
+gF
+gd
+hM
+iC
+jr
+kc
+kK
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(47,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+dS
+eo
+eo
+fa
+fx
+fx
+gp
+fx
+hn
+hN
+iG
+jt
+ke
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(48,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+uY
+ep
+eI
+eG
+fA
+gf
+gq
+gM
+hp
+eG
+iH
+ju
+kf
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(49,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Vm
+JB
+eo
+eI
+eG
+fF
+fx
+gr
+fx
+hq
+eG
+iI
+fx
+kh
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(50,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+Zp
+Zp
+Zp
+Zp
+Zp
+EG
+EG
+EG
+EG
+EG
+Vm
+JB
+Cm
+eI
+eG
+fG
+gg
+gt
+gO
+fY
+eG
+iK
+jv
+kj
+Vm
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(51,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+bP
+WT
+YT
+cg
+Zp
+EG
+EG
+EG
+EG
+EG
+kq
+wN
+wN
+wN
+wN
+wN
+wN
+gu
+gR
+wN
+hP
+hP
+jw
+hP
+iZ
+iZ
+iZ
+iZ
+iZ
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(52,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+bQ
+YD
+YD
+Ll
+Zp
+Zp
+Zp
+Zp
+Zp
+kq
+kq
+wN
+eq
+eJ
+fb
+eJ
+Us
+gx
+Us
+hs
+hP
+iN
+jx
+jx
+kL
+hP
+lG
+lV
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(53,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+bR
+YD
+ZN
+Zt
+Zu
+ZN
+ZN
+py
+Zu
+CK
+ev
+PU
+Us
+eN
+eu
+eu
+Us
+Us
+Us
+ht
+hP
+iP
+iR
+iR
+kO
+hP
+QO
+lX
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(54,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+Zp
+Zp
+Zp
+Zu
+Zu
+YU
+Zu
+Zu
+cA
+YD
+rN
+Zu
+vL
+Bf
+Us
+Bf
+Bf
+Us
+Us
+Bf
+Bf
+Us
+ht
+hP
+iQ
+jy
+jz
+iR
+hP
+hT
+lZ
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(55,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+UI
+UI
+UI
+UI
+UI
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+PP
+ZN
+YD
+ZN
+Xp
+ZN
+ZI
+Zu
+Zu
+cN
+Zu
+Zu
+di
+Bf
+Us
+es
+eJ
+eJ
+eJ
+eJ
+eJ
+Us
+Us
+hS
+iR
+jz
+iR
+jA
+iS
+jA
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(56,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+UI
+gb
+UI
+UI
+UI
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+PS
+YD
+ZX
+We
+Xx
+YD
+ZN
+tC
+cB
+cQ
+nW
+HT
+Us
+Us
+dW
+Ms
+eP
+eu
+fH
+gh
+eu
+Us
+Us
+hT
+iS
+jA
+iS
+jz
+iR
+iS
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(57,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+UI
+UI
+UI
+UI
+UI
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+bl
+bs
+TK
+We
+XD
+bY
+YD
+WC
+cC
+cR
+MT
+FR
+Us
+dj
+dX
+Us
+eQ
+fh
+Us
+eQ
+eu
+Us
+hv
+hP
+iU
+jz
+iR
+jz
+iR
+iS
+iS
+hP
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(58,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+PV
+ZN
+Kk
+bT
+bv
+ZN
+YD
+tC
+qW
+IM
+Fe
+Vi
+Us
+Us
+dY
+eu
+eR
+eu
+fI
+Ms
+gy
+Bf
+Us
+hS
+iS
+iS
+jA
+iR
+iR
+iS
+mb
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(59,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+bm
+YD
+YD
+ZN
+XF
+YD
+wG
+Zu
+Zu
+Fm
+Zu
+Zu
+Us
+Bf
+Us
+ew
+eS
+eS
+eS
+eS
+eS
+Bf
+Us
+hT
+iR
+iR
+jz
+iS
+jA
+lJ
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(60,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+Zp
+Zp
+Zp
+Zu
+Zu
+cc
+Zu
+Zu
+cF
+ZN
+cU
+Zu
+di
+dk
+dm
+ex
+Bf
+Us
+Us
+dm
+dm
+Us
+hx
+hP
+iW
+iW
+kl
+hu
+pd
+lL
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(61,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+PX
+PX
+PX
+Zp
+YD
+ZN
+ZN
+ZN
+Zu
+cH
+YT
+cY
+Zu
+vL
+dm
+dm
+Us
+Us
+Bf
+Bf
+dm
+dm
+Bf
+hy
+hP
+iR
+iR
+iR
+hT
+hT
+hT
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(62,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+Gy
+XE
+JE
+WH
+Zp
+Zp
+Zp
+Zp
+Zp
+Us
+dp
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+Us
+hz
+hP
+iY
+jC
+iR
+kP
+lk
+lL
+ma
+mm
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(63,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Zp
+Zp
+Zp
+Zp
+Zp
+Zp
+EG
+EG
+EG
+Wk
+Wk
+Xf
+Xf
+YF
+eV
+fi
+fi
+fi
+YF
+eV
+Xf
+hP
+iZ
+iZ
+iZ
+iZ
+iZ
+iZ
+iZ
+iZ
+iZ
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(64,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Wk
+dq
+ZT
+YF
+ez
+YF
+ez
+YF
+YF
+YF
+ZT
+hU
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(65,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+Wk
+ds
+ZT
+YF
+eX
+eX
+eX
+eX
+eX
+YF
+ZT
+hX
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(66,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+Wk
+dt
+ZT
+ez
+eY
+Xf
+Xf
+Xf
+gz
+ez
+ZT
+AV
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(67,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+VZ
+EV
+VZ
+YK
+VZ
+zf
+VZ
+dz
+YL
+dz
+YZ
+EV
+QY
+YK
+TZ
+zf
+QY
+Wk
+Xf
+Xf
+Yi
+eX
+fj
+fK
+fj
+eX
+gV
+Xf
+Xf
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(68,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Ze
+Fk
+Ze
+YK
+Ze
+uU
+Lx
+dz
+YL
+dz
+Ze
+uU
+Ze
+YK
+Ze
+uU
+Lx
+Wk
+Fg
+ee
+YF
+eX
+fj
+fL
+fj
+eX
+ez
+ee
+ia
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(69,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Ca
+ZE
+JR
+ZE
+ZE
+ZE
+Ot
+dz
+YL
+dz
+Ca
+JR
+ZE
+ZE
+ZE
+ZE
+Ot
+Wk
+dv
+Sr
+YF
+eX
+fj
+fK
+fj
+eX
+YF
+Sr
+ib
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(70,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Ch
+qk
+VM
+TD
+VM
+qk
+Cv
+dz
+YL
+dz
+PY
+iF
+uU
+qk
+VM
+qk
+df
+Wk
+dA
+ei
+YF
+eX
+fj
+fL
+fj
+eX
+YF
+ei
+ic
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(71,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Ch
+qk
+VM
+aY
+uU
+qk
+Cv
+dz
+YL
+dz
+cf
+iF
+uU
+TD
+fP
+TD
+dh
+Wk
+Xf
+em
+eF
+TU
+fo
+xM
+fo
+TU
+gW
+oa
+Xf
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(72,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ac
+ar
+It
+Lo
+Lo
+Lo
+RS
+dz
+YL
+dz
+dz
+cj
+UA
+Zc
+UA
+UA
+UA
+Wk
+dC
+CJ
+ez
+eY
+Xf
+Xf
+Xf
+gA
+ez
+hA
+dC
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(73,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+at
+Xv
+Xv
+Xv
+Xv
+dz
+dz
+dz
+dz
+dz
+dz
+Xv
+cy
+Xv
+Xv
+Xv
+Wk
+dC
+xy
+ez
+eX
+eX
+eX
+eX
+eX
+YF
+hG
+dC
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(74,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Qo
+Qo
+Qo
+Qo
+Qo
+dz
+MG
+ZO
+dz
+dz
+co
+XO
+WM
+XO
+XO
+XO
+Wk
+dF
+Ea
+YF
+YF
+YF
+YF
+YF
+YF
+YF
+hH
+id
+Wk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(75,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+au
+LI
+LI
+Of
+Jx
+YK
+aP
+ZO
+YK
+YK
+cq
+Of
+im
+LI
+LI
+gw
+Xf
+Xf
+Xf
+YF
+eV
+fi
+fi
+fi
+YF
+eV
+Xf
+Xf
+Lk
+Lk
+Lk
+Lk
+Lk
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(76,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Yx
+Yx
+Yx
+Yx
+ZO
+Yx
+Yx
+ZO
+ZO
+gK
+ZO
+Yx
+ZO
+Yx
+Yx
+ZO
+ZO
+WU
+dM
+oX
+ZO
+ZO
+ZO
+Yx
+ZO
+ZO
+ZO
+ZO
+ie
+wq
+jF
+km
+kQ
+lo
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(77,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+ae
+ZO
+ZO
+ZO
+ZO
+fN
+Yx
+ZO
+Yx
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+Yx
+Yx
+ZO
+ZO
+ZO
+ZO
+Yx
+ZO
+ZO
+Yx
+Yx
+ZO
+ZO
+ie
+wq
+jI
+kp
+kT
+lp
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(78,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+Yx
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ie
+SM
+jJ
+kr
+kU
+lq
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(79,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+FD
+Nw
+fM
+Ov
+bn
+Si
+fM
+Wx
+bn
+Si
+cr
+cs
+Nj
+Si
+fM
+Wx
+bn
+Nw
+fM
+Wx
+Nj
+Nw
+fO
+ZO
+nL
+WA
+WA
+in
+SM
+SM
+kt
+SM
+SM
+Lk
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(80,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+uh
+ZO
+ZO
+TL
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+zR
+ZO
+WA
+gY
+WA
+ZO
+wq
+jK
+ku
+kV
+ls
+lM
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(81,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+FN
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+bq
+ZO
+WA
+kA
+WA
+ZO
+wq
+jN
+kw
+kW
+lv
+lO
+Lk
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(82,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+OJ
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+VD
+ZO
+gB
+os
+WA
+ZO
+aZ
+Ja
+kx
+kY
+lw
+lQ
+mc
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(83,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+YK
+ZO
+sO
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+fS
+ZO
+WA
+hb
+nL
+ZO
+Zr
+td
+Mt
+WD
+ly
+hW
+mf
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(84,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+YK
+ZO
+TL
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+Rk
+ZO
+WA
+WA
+nL
+Kw
+SM
+qI
+Wn
+jI
+lB
+lR
+SM
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(85,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+YK
+ZO
+av
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+oW
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+PA
+ZO
+ZO
+ZO
+ZO
+Yx
+SM
+hC
+hD
+cp
+VO
+qS
+mj
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(86,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+YK
+ZO
+aw
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+fU
+ZO
+WA
+nL
+nL
+io
+SM
+jP
+kz
+ld
+lD
+lU
+mk
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(87,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+YK
+ZO
+sO
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+fV
+ZO
+WA
+WA
+WA
+UV
+SM
+SM
+SM
+SM
+Lk
+Lk
+Lk
+Lk
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(88,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+aC
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+zR
+Yx
+WA
+WA
+WA
+ZO
+eC
+Vn
+kB
+le
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(89,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+aD
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+zR
+Yx
+WA
+WA
+WA
+ZO
+jj
+ci
+ci
+ci
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(90,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+uh
+ZO
+ZO
+aw
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+yX
+bq
+ZO
+nL
+hf
+WA
+VM
+Yj
+jS
+kD
+lf
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(91,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+FU
+aT
+ba
+bb
+lE
+aT
+bw
+bV
+lE
+aT
+ba
+cu
+cL
+cT
+de
+fE
+cL
+cT
+ba
+fE
+cL
+aT
+fX
+ZO
+nL
+nL
+WA
+ir
+Yj
+Yj
+Yj
+Yj
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(92,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+ZF
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+Yx
+ZO
+ZO
+ZO
+uU
+eC
+jU
+kE
+lg
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(93,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+ZO
+ZO
+Yx
+ZO
+Yx
+Yx
+Yx
+ZO
+ZO
+Yx
+Yx
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+Yx
+ZO
+ZO
+ZO
+ZO
+ZO
+Yx
+jk
+ci
+ci
+ci
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(94,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ZO
+aE
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+Yx
+Yx
+Yx
+aE
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+ZO
+aE
+ZO
+ZO
+ZO
+ZO
+ZO
+Yj
+jW
+kI
+li
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(95,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+dz
+QK
+QK
+bd
+QK
+QK
+dz
+bX
+VM
+VM
+VM
+VM
+YK
+bX
+VM
+VM
+VM
+VM
+YK
+bX
+VM
+VM
+YK
+bX
+VM
+VM
+VM
+iw
+wR
+wR
+wR
+wR
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(96,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+dz
+aU
+LI
+bg
+LI
+LI
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+wR
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(97,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+af
+aG
+QN
+QN
+bj
+QN
+Sn
+gJ
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(98,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ZO
+By
+YA
+YA
+cm
+br
+YA
+bB
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(99,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+he
+Jb
+Fk
+VM
+VM
+uU
+uU
+bC
+KO
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(100,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ES
+Jb
+uU
+Yx
+ZO
+ZO
+uU
+bC
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(101,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ah
+Jb
+VM
+Yx
+ZO
+ZO
+VM
+bC
+cE
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(102,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+HN
+eh
+VM
+Yx
+LL
+Yx
+VM
+bF
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(103,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+aj
+aI
+VM
+Yx
+ZO
+ZO
+bt
+bG
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(104,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Yx
+aI
+VM
+ZO
+ZO
+ZO
+VM
+bJ
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(105,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+ak
+aI
+VM
+VM
+uU
+VM
+uU
+bK
+KO
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(106,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+Yx
+aM
+aX
+AC
+AC
+AC
+oR
+bM
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(107,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+al
+ZO
+ZO
+Yx
+ZO
+Yx
+Yx
+Yx
+Yx
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(108,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+dz
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(109,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(110,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(111,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(112,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(113,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(114,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(115,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(116,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(117,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(118,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(119,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(120,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(121,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(122,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(123,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(124,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(125,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(126,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(127,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(128,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(129,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(130,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(131,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(132,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(133,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(134,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(135,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(136,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(137,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(138,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(139,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(140,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(141,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(142,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(143,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(144,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(145,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(146,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(147,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(148,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(149,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}
+(150,1,1) = {"
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+EG
+"}

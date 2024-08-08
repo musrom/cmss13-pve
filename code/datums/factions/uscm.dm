@@ -194,6 +194,8 @@
 			// Check squad marines here too, for the unique ones
 			if(JOB_SQUAD_ENGI)
 				marine_rk = "engi"
+			if(JOB_SQUAD_HMG)
+				marine_rk = "hmg"
 			if(JOB_SQUAD_MEDIC)
 				marine_rk = "med"
 			if(JOB_SQUAD_SPECIALIST)

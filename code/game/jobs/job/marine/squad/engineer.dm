@@ -56,3 +56,8 @@ AddTimelock(/datum/job/marine/engineer, list(
 /obj/effect/landmark/start/marine/engineer/delta
 	icon_state = "engi_spawn_delta"
 	squad = SQUAD_MARINE_4
+
+/datum/job/marine/engineer/ai
+	title = JOB_SQUAD_ENGI
+	total_positions = 1
+	spawn_positions = 1

@@ -15,8 +15,6 @@
 
 	origins = list(0, -1)
 
-	allowed_seat = VEHICLE_DRIVER
-
 	ammo = new /obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon
 	max_clips = 1
 
