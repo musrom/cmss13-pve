@@ -20,7 +20,8 @@
 /turf/open/floor/almayer,
 /area/almayer/engineering/laundry)
 "fr" = (
-/obj/effect/landmark/start/marine/tl,
+/obj/effect/landmark/start/intel,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "gc" = (
@@ -91,6 +92,7 @@
 /area/space)
 "ld" = (
 /obj/effect/landmark/start/bridge,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "lx" = (
@@ -169,7 +171,8 @@
 	},
 /area/space)
 "sp" = (
-/obj/effect/landmark/start/intel,
+/obj/effect/landmark/start/marine/tl,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "uH" = (
@@ -293,6 +296,7 @@
 /area/golden_arrow/cryo_cells)
 "CP" = (
 /obj/effect/landmark/start/marine/medic,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "CW" = (
@@ -333,7 +337,8 @@
 	},
 /area/space)
 "HI" = (
-/obj/effect/landmark/start/marine/engineer,
+/obj/effect/landmark/start/marine/rto,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "HT" = (
@@ -409,7 +414,8 @@
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/starboard_garden)
 "Qv" = (
-/obj/effect/landmark/start/marine/rto,
+/obj/effect/landmark/start/marine/smartgunner,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "Ra" = (
@@ -521,6 +527,7 @@
 /area/space)
 "YE" = (
 /obj/effect/landmark/start/marine,
+/obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "YF" = (
@@ -11548,14 +11555,14 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+DS
+DS
+DS
+DS
+DS
+DS
+DS
 ri
 ri
 ri
@@ -11700,16 +11707,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+nu
+nu
+nu
+nu
+nu
+nu
+DS
+nu
+nu
 ri
 ri
 ri
@@ -11852,16 +11859,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+nu
+nu
+nu
+nu
+nu
+nu
+DS
+nu
+nu
 ri
 ri
 ri
@@ -12004,16 +12011,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+nu
+nu
+nu
+nu
+nu
+nu
+DS
+nu
+nu
 DS
 DS
 DS
@@ -12156,16 +12163,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+nu
+nu
+nu
+nu
+nu
+nu
+DS
+nu
+nu
 DS
 gc
 RJ
@@ -12308,16 +12315,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+DS
+nu
+nu
+nu
+nu
+nu
+nu
+DS
+nu
+nu
 DS
 kO
 RR
@@ -12613,8 +12620,8 @@ ri
 ri
 ri
 wQ
-sp
-sp
+fr
+fr
 IZ
 YE
 YE
@@ -13222,10 +13229,10 @@ ri
 ri
 wQ
 CP
+HI
 IZ
-IZ
-IZ
-IZ
+sp
+sp
 IZ
 IZ
 nu
