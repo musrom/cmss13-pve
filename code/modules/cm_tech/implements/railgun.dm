@@ -40,16 +40,11 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	var/ammo = 10
 	var/ammo_recharge_time = 30 SECONDS	//How long it takes to get a new shot to your ammo counter
 	var/ammo_delay = 10 SECONDS			//How long it takes to hit the earth
-	var/ammo_recharge_time = 30 SECONDS	//How long it takes to get a new shot to your ammo counter
-	var/ammo_delay = 10 SECONDS			//How long it takes to hit the earth
-
-	var/fire_cooldown = 1.5 SECONDS		//Cooldown between shots
 	var/fire_cooldown = 1.5 SECONDS		//Cooldown between shots
 	var/next_fire = 0
 
 	var/power = 900
 	var/range = 2
-	var/warning_color = "#0000ff"
 	var/warning_color = "#0000ff"
 
 	/// Computer and Railgun can only be used if this variable is cleared
@@ -117,7 +112,6 @@ GLOBAL_DATUM(railgun_eye_location, /datum/coords)
 	if(istype(T, /turf/open/space)) // No firing into space
 		return FALSE
 
-	if(protected_by_pylon(TURF_PROTECTION_MORTAR, T))
 	if(protected_by_pylon(TURF_PROTECTION_MORTAR, T))
 		to_chat(H, SPAN_WARNING("[icon2html(src)] This area is too reinforced to fire into."))
 		return FALSE
