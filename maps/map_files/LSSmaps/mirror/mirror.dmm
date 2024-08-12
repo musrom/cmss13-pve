@@ -90,7 +90,7 @@
 	},
 /area/space)
 "ld" = (
-/obj/effect/landmark/start/captain,
+/obj/effect/landmark/start/bridge,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "lx" = (
@@ -12614,7 +12614,7 @@ ri
 ri
 wQ
 sp
-CP
+sp
 IZ
 YE
 YE
@@ -13069,11 +13069,11 @@ ri
 ri
 ri
 wQ
-ld
+fr
 fr
 IZ
-Qv
-HI
+YE
+YE
 IZ
 EU
 nu
@@ -13221,7 +13221,7 @@ ri
 ri
 ri
 wQ
-IZ
+CP
 IZ
 IZ
 IZ
@@ -13677,11 +13677,11 @@ ri
 ri
 ri
 wQ
+ld
+HI
 IZ
-IZ
-IZ
-IZ
-IZ
+Qv
+Qv
 IZ
 Sp
 nu
