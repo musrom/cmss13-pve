@@ -32,5 +32,8 @@ endmap
 map obama
 endmap
 
+map mirror
+endmap
+
 map golden_arrow_classic
 endmap
