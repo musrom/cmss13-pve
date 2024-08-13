@@ -1,4 +1,23 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"dp" = (
+/obj/structure/bed/stool{
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/curtain/open/black{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/sign/poster/pinup{
+	pixel_x = 0;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/space)
 "dN" = (
 /obj/structure/sign/safety/cryo{
 	name = "hypersleep semiotic";
@@ -19,6 +38,17 @@
 	},
 /turf/open/floor/almayer,
 /area/almayer/engineering/laundry)
+"eW" = (
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/curtain/open/black{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/turf/open/floor/almayer,
+/area/space)
 "fr" = (
 /obj/effect/landmark/start/intel,
 /obj/effect/landmark/late_join,
@@ -124,6 +154,10 @@
 "nu" = (
 /turf/open/floor/almayer,
 /area/space)
+"nJ" = (
+/obj/structure/machinery/cm_vending/gear/engi,
+/turf/open/floor/almayer,
+/area/space)
 "nS" = (
 /obj/structure/sign/nosmoking_1{
 	pixel_y = 30
@@ -145,6 +179,10 @@
 /obj/item/bedsheet/blue{
 	layer = 3.2
 	},
+/turf/open/floor/almayer,
+/area/space)
+"qJ" = (
+/obj/structure/closet/secure_closet/smartgunner,
 /turf/open/floor/almayer,
 /area/space)
 "qN" = (
@@ -175,6 +213,21 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"uG" = (
+/obj/structure/bed/stool{
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/curtain/open/black{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/turf/open/floor/almayer,
+/area/space)
 "uH" = (
 /turf/closed/wall/almayer,
 /area/almayer/living/starboard_garden)
@@ -341,6 +394,10 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"HK" = (
+/obj/structure/closet/secure_closet/staff_officer/intel,
+/turf/open/floor/almayer,
+/area/space)
 "HT" = (
 /obj/structure/machinery/cryopod,
 /turf/open/floor/almayer{
@@ -388,6 +445,10 @@
 "My" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/engineering/laundry)
+"MF" = (
+/obj/structure/machinery/cm_vending/clothing/engi/bravo,
+/turf/open/floor/almayer,
+/area/space)
 "MK" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/floor/grass,
@@ -413,6 +474,21 @@
 "Qh" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/starboard_garden)
+"Qm" = (
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/curtain/open/black{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/obj/structure/sign/poster/music{
+	pixel_x = 0;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/space)
 "Qv" = (
 /obj/effect/landmark/start/marine/smartgunner,
 /obj/effect/landmark/late_join,
@@ -471,6 +547,25 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"Uk" = (
+/obj/structure/bed/stool{
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/structure/curtain/open/black{
+	pixel_x = 0;
+	pixel_y = -18
+	},
+/obj/structure/sign/poster/propaganda{
+	pixel_x = 0;
+	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/space)
 "UP" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	job = "Smartgunner";
@@ -11399,18 +11494,18 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
-ri
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
+Mw
 ri
 ri
 ri
@@ -11551,21 +11646,21 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
+Mw
+Uk
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
+nu
 DS
 DS
 DS
 DS
-DS
-DS
-DS
-DS
-ri
-ri
-ri
 ri
 ri
 ri
@@ -11703,21 +11798,21 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
+Mw
+Qm
+nu
+nu
+nu
+nu
+nu
+HK
+HK
+qJ
+nu
 DS
 nu
 nu
-nu
-nu
-nu
-nu
 DS
-nu
-nu
-ri
 ri
 ri
 ri
@@ -11855,11 +11950,14 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-DS
+Mw
+uG
+nu
+nu
+nu
+nu
+nu
+nu
 nu
 nu
 nu
@@ -11867,9 +11965,6 @@ nu
 nu
 nu
 DS
-nu
-nu
-ri
 ri
 ri
 ri
@@ -12007,18 +12102,18 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-DS
+Mw
+eW
 nu
 nu
 nu
 nu
 nu
 nu
-DS
+nu
+nu
+nu
+nu
 nu
 nu
 DS
@@ -12159,16 +12254,16 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-DS
+Mw
+eW
 nu
 nu
 nu
 nu
 nu
+MF
+nu
+nJ
 nu
 DS
 nu
@@ -12311,11 +12406,11 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
-DS
+Mw
+dp
+nu
+nu
+nu
 nu
 nu
 nu
@@ -12463,17 +12558,17 @@ ri
 ri
 ri
 ri
-ri
-ri
-ri
-ri
+Mw
+Mw
+Mw
+Mw
 wQ
-wQ
-wQ
-wQ
-wQ
-wQ
-wQ
+Sp
+Sp
+Sp
+Sp
+Sp
+Sp
 Sp
 nu
 nu
