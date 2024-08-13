@@ -1,8 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aD" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
+"bz" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
 "bA" = (
 /obj/structure/machinery/light/built,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"dl" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
 "dp" = (
 /obj/structure/bed/stool{
 	pixel_x = 0;
@@ -91,10 +109,12 @@
 	},
 /turf/open/floor/carpet,
 /area/golden_arrow/dorms)
-"ih" = (
-/obj/structure/cable/heavyduty,
+"iD" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/almayer,
-/area/golden_arrow/prep_hallway)
+/area/golden_arrow/cryo_cells)
 "iH" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /turf/open/floor/grass,
@@ -103,7 +123,10 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-8";
+	layer = 2.36
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "kL" = (
@@ -156,6 +179,12 @@
 	},
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
+"lE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "lI" = (
 /obj/structure/machinery/light/built{
 	dir = 1
@@ -181,6 +210,12 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
+"lT" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
 "lZ" = (
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
@@ -220,6 +255,18 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
+"ow" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"ql" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-4"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
 "qJ" = (
 /obj/structure/closet/secure_closet/smartgunner,
 /turf/open/floor/almayer,
@@ -229,8 +276,9 @@
 	name = "\improper Rest and Relaxation Area";
 	dir = 2
 	},
-/obj/structure/cable/heavyduty,
-/obj/structure/cable/heavyduty,
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/prep_hallway)
 "ri" = (
@@ -254,10 +302,6 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
-"uB" = (
-/obj/structure/cable,
-/turf/open/floor/almayer,
-/area/golden_arrow/prep_hallway)
 "uG" = (
 /obj/structure/bed/stool{
 	pixel_x = 0;
@@ -308,6 +352,13 @@
 	},
 /turf/open/floor/carpet,
 /area/golden_arrow/dorms)
+"vU" = (
+/obj/structure/machinery/light/built,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
 "wQ" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/cryo_cells)
@@ -321,7 +372,9 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Prep Lockers"
 	},
-/obj/structure/cable/heavyduty,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "yh" = (
@@ -344,13 +397,8 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
-"yP" = (
-/obj/structure/cable,
-/turf/open/floor/almayer,
-/area/golden_arrow/dorms)
 "zc" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/obj/structure/cable/heavyduty,
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
 "ze" = (
@@ -366,11 +414,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
-"zX" = (
-/obj/structure/machinery/light/built,
-/obj/structure/cable,
-/turf/open/floor/almayer,
-/area/golden_arrow/cryo_cells)
 "Ai" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	job = "Squad Sergeant";
@@ -384,6 +427,28 @@
 	dir = 1
 	},
 /area/golden_arrow/dorms)
+"Au" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	layer = 2.36;
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	layer = 2.36
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
+"AA" = (
+/obj/structure/machinery/power/fractal_reactor,
+/obj/structure/cable/heavyduty{
+	icon_state = "0-2"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
 "Bf" = (
 /obj/structure/bed{
 	pixel_y = 0
@@ -425,15 +490,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
-"Ct" = (
-/obj/structure/cable/heavyduty,
-/obj/structure/cable/heavyduty,
-/turf/open/floor/almayer,
-/area/golden_arrow/prep_hallway)
-"CM" = (
-/obj/structure/cable/heavyduty,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "CP" = (
 /obj/effect/landmark/start/marine/medic,
 /obj/effect/landmark/late_join,
@@ -471,13 +527,22 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-8";
+	layer = 2.36
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "GZ" = (
 /obj/structure/phone_base,
 /turf/closed/wall/almayer,
 /area/golden_arrow/dorms)
+"Hu" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "0-8"
+	},
+/turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
 "HE" = (
 /turf/open/floor/carpet/edge{
 	dir = 4
@@ -508,9 +573,11 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "IA" = (
-/obj/structure/machinery/power/fractal_reactor,
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
 /turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
+/area/golden_arrow/prep_hallway)
 "IZ" = (
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
@@ -543,10 +610,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/engineering/laundry)
-"Mh" = (
-/obj/structure/cable,
-/turf/open/floor/almayer,
-/area/golden_arrow/platoonprep)
 "Mw" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoonprep)
@@ -561,10 +624,6 @@
 /obj/structure/machinery/cm_vending/clothing/engi/bravo,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
-"MI" = (
-/obj/structure/cable/heavyduty,
-/turf/open/floor/grass,
-/area/almayer/living/starboard_garden)
 "MK" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/floor/grass,
@@ -590,6 +649,15 @@
 "PC" = (
 /turf/closed/wall/almayer/white,
 /area/golden_arrow/cryo_cells)
+"PJ" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
 "Qh" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/living/starboard_garden)
@@ -613,6 +681,12 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"QQ" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
 "Ra" = (
 /obj/structure/bed{
 	pixel_y = 0
@@ -636,7 +710,10 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 1
 	},
-/obj/structure/cable,
+/obj/structure/cable{
+	icon_state = "0-8";
+	layer = 2.36
+	},
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "Re" = (
@@ -676,10 +753,6 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
-"Tx" = (
-/obj/structure/cable,
-/turf/open/floor/almayer,
-/area/golden_arrow/cryo_cells)
 "Uk" = (
 /obj/structure/bed/stool{
 	pixel_x = 0;
@@ -696,6 +769,12 @@
 /obj/structure/sign/poster/propaganda{
 	pixel_x = 0;
 	pixel_y = 35
+	},
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
+"UD" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
@@ -12093,16 +12172,16 @@ Mw
 uG
 nu
 nu
-IA
-CM
-CM
-CM
-CM
-CM
-CM
+AA
+PJ
+UD
+UD
+UD
+UD
+UD
 xK
-ih
-Ct
+bz
+ql
 Py
 ri
 ri
@@ -12246,7 +12325,7 @@ eW
 nu
 nu
 nu
-Mh
+lT
 nu
 nu
 nu
@@ -12254,7 +12333,7 @@ nu
 nu
 nu
 HS
-ih
+IA
 DS
 DS
 DS
@@ -12398,7 +12477,7 @@ eW
 nu
 nu
 nu
-Mh
+lT
 nu
 MF
 nu
@@ -12406,7 +12485,7 @@ nJ
 nu
 LP
 HS
-ih
+IA
 fB
 gc
 RJ
@@ -12558,7 +12637,7 @@ nu
 nu
 LP
 HS
-ih
+IA
 fB
 kO
 RR
@@ -12710,7 +12789,7 @@ Sp
 Sp
 Sp
 lI
-ih
+IA
 fB
 kL
 RR
@@ -12862,7 +12941,7 @@ YE
 IZ
 Sp
 HS
-ih
+IA
 fB
 Ai
 RR
@@ -13014,7 +13093,7 @@ Bo
 IZ
 Sp
 HS
-ih
+IA
 fB
 kL
 RR
@@ -13166,7 +13245,7 @@ yB
 bA
 Sp
 dN
-ih
+IA
 fB
 KO
 HE
@@ -13318,7 +13397,7 @@ YE
 IZ
 EU
 HS
-ih
+IA
 Ia
 ze
 ze
@@ -13467,12 +13546,12 @@ HI
 IZ
 sp
 sp
-Tx
-Tx
-uB
-Ct
-yP
-yP
+iD
+ow
+dl
+Au
+aD
+QQ
 ze
 ze
 ze
@@ -13619,10 +13698,10 @@ Bo
 IZ
 Bi
 Bo
-zX
+vU
 Sp
 HS
-ih
+IA
 fB
 Rc
 ze
@@ -13771,10 +13850,10 @@ yB
 IZ
 HT
 yB
-Tx
+lE
 Sp
 lI
-ih
+IA
 GZ
 ze
 ZM
@@ -13923,10 +14002,10 @@ HI
 IZ
 Qv
 Qv
-Tx
+lE
 Sp
 HS
-ih
+IA
 fB
 lK
 ZM
@@ -14230,7 +14309,7 @@ Sp
 Sp
 Sp
 nS
-MI
+Hu
 lZ
 lZ
 ZM
@@ -14382,7 +14461,7 @@ Sp
 yh
 vF
 lZ
-MI
+lZ
 Fs
 lZ
 iH
@@ -14686,7 +14765,7 @@ Qh
 lZ
 lZ
 CW
-MI
+lZ
 lZ
 lZ
 lZ
