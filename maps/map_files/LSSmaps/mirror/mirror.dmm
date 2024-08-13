@@ -107,12 +107,13 @@
 /area/golden_arrow/dorms)
 "ic" = (
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Squad Sergeant";
-	pixel_x = 8
+	job = "Platoon Commander";
+	pixel_x = -7;
+	pixel_y = 0
 	},
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
-	pixel_x = -7
+	job = "Platoon Corpsman";
+	pixel_x = 8
 	},
 /turf/open/floor/carpet,
 /area/golden_arrow/dorms)
@@ -157,16 +158,15 @@
 /area/golden_arrow/dorms)
 "kO" = (
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal{
 	job = "Squad Sergeant";
 	pixel_x = 8
 	},
-/turf/open/floor/carpet/edge{
-	dir = 1
+/obj/structure/closet/secure_closet/marine_personal{
+	job = "Squad Sergeant";
+	pixel_x = -7;
+	pixel_y = 0
 	},
+/turf/open/floor/carpet,
 /area/golden_arrow/dorms)
 "kY" = (
 /obj/structure/machinery/light{
@@ -277,12 +277,13 @@
 /area/space)
 "rF" = (
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Squad Sergeant";
+	job = "Intelligence Officer";
 	pixel_x = 8
 	},
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
-	pixel_x = -7
+	job = "Intelligence Officer";
+	pixel_x = -7;
+	pixel_y = 0
 	},
 /turf/open/floor/carpet/edge{
 	dir = 3
@@ -412,11 +413,9 @@
 /area/golden_arrow/cryo_cells)
 "Ai" = (
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Squad Sergeant";
 	pixel_x = 8
 	},
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
 	pixel_x = -7
 	},
 /turf/open/floor/carpet/edge{
@@ -610,12 +609,13 @@
 /area/almayer/living/starboard_garden)
 "KO" = (
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
+	job = "Radio Telephone Operator";
 	pixel_x = -7
 	},
 /obj/structure/closet/secure_closet/marine_personal{
-	job = "Squad Sergeant";
-	pixel_x = 8
+	job = "Radio Telephone Operator";
+	pixel_x = 8;
+	pixel_y = 0
 	},
 /turf/open/floor/carpet/edge{
 	dir = 5
@@ -820,14 +820,6 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "UP" = (
-/obj/structure/closet/secure_closet/marine_personal{
-	job = "Smartgunner";
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal{
-	job = "Squad Sergeant";
-	pixel_x = 8
-	},
 /turf/open/floor/carpet/edge{
 	dir = 6
 	},
@@ -12686,9 +12678,9 @@ LP
 HS
 ZD
 fB
-kO
+Ai
 RR
-ic
+kO
 RR
 rF
 DS
