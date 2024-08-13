@@ -91,6 +91,10 @@
 	},
 /turf/open/floor/carpet,
 /area/golden_arrow/dorms)
+"ih" = (
+/obj/structure/cable/heavyduty,
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
 "iH" = (
 /obj/structure/flora/bush/ausbushes/var3/ywflowers,
 /turf/open/floor/grass,
@@ -99,6 +103,7 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "kL" = (
@@ -224,6 +229,8 @@
 	name = "\improper Rest and Relaxation Area";
 	dir = 2
 	},
+/obj/structure/cable/heavyduty,
+/obj/structure/cable/heavyduty,
 /turf/open/floor/almayer,
 /area/golden_arrow/prep_hallway)
 "ri" = (
@@ -247,6 +254,10 @@
 /obj/effect/landmark/late_join,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"uB" = (
+/obj/structure/cable,
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
 "uG" = (
 /obj/structure/bed/stool{
 	pixel_x = 0;
@@ -310,6 +321,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Prep Lockers"
 	},
+/obj/structure/cable/heavyduty,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
 "yh" = (
@@ -332,8 +344,13 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
+"yP" = (
+/obj/structure/cable,
+/turf/open/floor/almayer,
+/area/golden_arrow/dorms)
 "zc" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
+/obj/structure/cable/heavyduty,
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
 "ze" = (
@@ -348,6 +365,11 @@
 	pixel_y = 16
 	},
 /turf/open/floor/plating/plating_catwalk,
+/area/golden_arrow/cryo_cells)
+"zX" = (
+/obj/structure/machinery/light/built,
+/obj/structure/cable,
+/turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "Ai" = (
 /obj/structure/closet/secure_closet/marine_personal{
@@ -403,6 +425,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/cryo_cells)
+"Ct" = (
+/obj/structure/cable/heavyduty,
+/obj/structure/cable/heavyduty,
+/turf/open/floor/almayer,
+/area/golden_arrow/prep_hallway)
+"CM" = (
+/obj/structure/cable/heavyduty,
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
 "CP" = (
 /obj/effect/landmark/start/marine/medic,
 /obj/effect/landmark/late_join,
@@ -440,6 +471,7 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "GZ" = (
@@ -511,6 +543,10 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/engineering/laundry)
+"Mh" = (
+/obj/structure/cable,
+/turf/open/floor/almayer,
+/area/golden_arrow/platoonprep)
 "Mw" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/platoonprep)
@@ -525,6 +561,10 @@
 /obj/structure/machinery/cm_vending/clothing/engi/bravo,
 /turf/open/floor/almayer,
 /area/golden_arrow/platoonprep)
+"MI" = (
+/obj/structure/cable/heavyduty,
+/turf/open/floor/grass,
+/area/almayer/living/starboard_garden)
 "MK" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/floor/grass,
@@ -596,6 +636,7 @@
 /obj/structure/machinery/power/apc/almayer{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/almayer,
 /area/golden_arrow/dorms)
 "Re" = (
@@ -633,6 +674,10 @@
 /area/golden_arrow/cryo_cells)
 "SP" = (
 /obj/structure/bedsheetbin,
+/turf/open/floor/almayer,
+/area/golden_arrow/cryo_cells)
+"Tx" = (
+/obj/structure/cable,
 /turf/open/floor/almayer,
 /area/golden_arrow/cryo_cells)
 "Uk" = (
@@ -12048,16 +12093,16 @@ Mw
 uG
 nu
 nu
-nu
-nu
-nu
-nu
-nu
-nu
-nu
+IA
+CM
+CM
+CM
+CM
+CM
+CM
 xK
-HS
-HS
+ih
+Ct
 Py
 ri
 ri
@@ -12201,7 +12246,7 @@ eW
 nu
 nu
 nu
-nu
+Mh
 nu
 nu
 nu
@@ -12209,7 +12254,7 @@ nu
 nu
 nu
 HS
-HS
+ih
 DS
 DS
 DS
@@ -12353,7 +12398,7 @@ eW
 nu
 nu
 nu
-nu
+Mh
 nu
 MF
 nu
@@ -12361,7 +12406,7 @@ nJ
 nu
 LP
 HS
-HS
+ih
 fB
 gc
 RJ
@@ -12504,7 +12549,7 @@ Mw
 dp
 nu
 nu
-IA
+nu
 iT
 nu
 kY
@@ -12513,7 +12558,7 @@ nu
 nu
 LP
 HS
-HS
+ih
 fB
 kO
 RR
@@ -12665,7 +12710,7 @@ Sp
 Sp
 Sp
 lI
-HS
+ih
 fB
 kL
 RR
@@ -12817,7 +12862,7 @@ YE
 IZ
 Sp
 HS
-HS
+ih
 fB
 Ai
 RR
@@ -12969,7 +13014,7 @@ Bo
 IZ
 Sp
 HS
-HS
+ih
 fB
 kL
 RR
@@ -13121,7 +13166,7 @@ yB
 bA
 Sp
 dN
-HS
+ih
 fB
 KO
 HE
@@ -13273,7 +13318,7 @@ YE
 IZ
 EU
 HS
-HS
+ih
 Ia
 ze
 ze
@@ -13422,12 +13467,12 @@ HI
 IZ
 sp
 sp
-IZ
-IZ
-HS
-HS
-ze
-ze
+Tx
+Tx
+uB
+Ct
+yP
+yP
 ze
 ze
 ze
@@ -13574,10 +13619,10 @@ Bo
 IZ
 Bi
 Bo
-bA
+zX
 Sp
 HS
-HS
+ih
 fB
 Rc
 ze
@@ -13726,10 +13771,10 @@ yB
 IZ
 HT
 yB
-IZ
+Tx
 Sp
 lI
-HS
+ih
 GZ
 ze
 ZM
@@ -13878,10 +13923,10 @@ HI
 IZ
 Qv
 Qv
-IZ
+Tx
 Sp
 HS
-HS
+ih
 fB
 lK
 ZM
@@ -14185,7 +14230,7 @@ Sp
 Sp
 Sp
 nS
-lZ
+MI
 lZ
 lZ
 ZM
@@ -14337,7 +14382,7 @@ Sp
 yh
 vF
 lZ
-lZ
+MI
 Fs
 lZ
 iH
@@ -14641,7 +14686,7 @@ Qh
 lZ
 lZ
 CW
-lZ
+MI
 lZ
 lZ
 lZ
