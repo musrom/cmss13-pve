@@ -878,8 +878,9 @@
 	name = "USCM Intelligence Officer (IO) (Cyro)"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND|EQUIPMENT_PRESET_MARINE
 
-	access = list(ACCESS_MARINE_PREP)
+	access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_COMMAND)
 	assignment = JOB_INTEL
+	rank = 	JOB_INTEL
 	paygrade = "MO1"
 	role_comm_title = "IO"
 	skills = /datum/skills/intel
