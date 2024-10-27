@@ -43,7 +43,6 @@
 #define JOB_SQUAD_RTO "Radio Telephone Operator"
 #define JOB_SQUAD_MARINE_FORECON "FORECON Rifleman"
 #define JOB_SQUAD_SMARTGUN_FORECON "FORECON Smartgunner"
-#define JOB_SQUAD_HMG "Squad Heavymachinegunner"
 
 GLOBAL_LIST_INIT(job_squad_roles, JOB_SQUAD_ROLES_LIST)
 

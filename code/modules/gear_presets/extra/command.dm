@@ -5,7 +5,7 @@
 	idtype = /obj/item/card/id/silver
 	assignment = JOB_GO
 	rank = JOB_GO
-	paygrade = "MO1"
+	paygrades = list(PAY_SHORT_MO1 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "GO"
 	minimap_icon = list("cic" = MINIMAP_ICON_COLOR_HEAD)
 
@@ -18,6 +18,6 @@
 	idtype = /obj/item/card/id/silver
 	assignment = JOB_WO_XO
 	rank = JOB_WO_XO
-	paygrade = "MO1"
+	paygrades = list(PAY_SHORT_MO1 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "LtCo"
 	minimap_icon = list("cic" = MINIMAP_ICON_COLOR_HEAD)

@@ -7,7 +7,7 @@
 	access = list(ACCESS_MARINE_PREP, ACCESS_SQUAD_ONE)
 	assignment = JOB_SQUAD_HMG
 	rank = JOB_SQUAD_HMG
-	paygrade = "ME3"
+	paygrades = list(PAY_SHORT_ME3 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "HMG"
 	skills = /datum/skills/MT
 	minimap_icon = "vc"

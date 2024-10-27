@@ -1,5 +1,5 @@
 /datum/job/command/crewman
-	title = JOB_CREWMAN
+	title = JOB_PMC_CREWMAN
 	total_positions = 2
 	spawn_positions = 2
 	allow_additional = TRUE
